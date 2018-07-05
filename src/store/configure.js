@@ -1,16 +1,17 @@
-import { createStore, combineReducers } from 'redux';
+import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
+import thunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
-import moviesReducer from '../reducers/moviesReducer';
-import listsReducer from '../reducers/moviesReducer';
 
-// import { adsCard, addMarket, setNewLocation, deleteCard } from './actions/actions.js';
+import moviesReducer from '../reducers/moviesReducer';
+
+// const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose; // eslint-disable-line
 
 export default () => {
   const store = createStore(
     combineReducers({
       movies: moviesReducer,
     }),
-    composeWithDevTools()
+    /* composeEnhancers */ composeWithDevTools(applyMiddleware(thunk))
   );
 
   return store;

@@ -10,15 +10,16 @@ const history = createHistory();
 class AppRouter extends Component {
   render() {
     return (
-      <Router history={history}>
-        <div>
-          <Switch>
-            <Route path="/" component={HomePage} exact={true} />
-            <Route path="/otherpage" component={OtherPage} exact={true} />
-            <Route component={NotFoundPage} />
-          </Switch>
-        </div>
-      </Router>
+      <HomePage />
+      // <Router history={history}>
+      //   <div>
+      //     <Switch>
+      //       <Route path="/" component={HomePage} exact={true} />
+      //       <Route path="/otherpage" component={OtherPage} exact={true} />
+      //       <Route component={NotFoundPage} />
+      //     </Switch>
+      //   </div>
+      // </Router>
     );
   }
 }

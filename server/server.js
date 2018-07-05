@@ -1,11 +1,12 @@
 const express = require('express');
 const path = require('path');
 const request = require('request');
-
+const bodyParser = require('body-parser');
 const User = require('../db/users.js');
 
 const app = express();
 const port = process.env.PORT || 8080;
+let currentUser = {};
 
 const github = {
   clientID: '1393fe5adf5f5882f79c',
@@ -30,7 +31,16 @@ let isAuthenticated = false;
 console.log('​isAuthenticated', isAuthenticated);
 
 const publicPath = path.join(__dirname, './../public/dist');
+app.use(bodyParser.json());
 
+app.post('/updatedata', (req, res) => {
+  User.update({ githubID: currentUser.githubID }, { movies: req.body }, { multi: true });
+});
+app.get('/getdata', (req, res) => {
+  User.find({ githubID: currentUser.githubID }, (err, userData) => {
+    res.json(userData[0]);
+  });
+});
 app.get('/authenticated/' || '/authenticated', (req, res) => {
   if (isAuthenticated) {
     res.sendFile(path.join(publicPath, 'index.html'));
@@ -63,9 +73,15 @@ app.get('/home', (req, res) => {
           favorites: {},
         },
       };
-      User.find({ githubID: user.githubID }, (err, res) => {
-        if (!res.length) {
-          User.create(user, (err, res) => {});
+      User.find({ githubID: user.githubID }, (err, findRes) => {
+        if (!findRes.length) {
+          User.create(user, (err, res) => {
+            User.find({}, (err, newUser) => {
+              currentUser.githubID = newUser[0].githubID;
+            });
+          });
+        } else {
+          currentUser.githubID = findRes[0].githubID;
         }
       });
       isAuthenticated = true;

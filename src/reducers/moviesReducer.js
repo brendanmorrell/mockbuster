@@ -1,57 +1,58 @@
 const initialState = [
-  {
-    title: 'bridge over the river kwai',
-    length: '3hrs',
-    watched: true,
-    onWatchList: false,
-    rating: 5,
-    genre: 'drama',
-  },
-
-  {
-    title: 'BTiLC',
-    length: '2hrs',
-    onWatchList: true,
-    genre: 'action',
-    rating: 2,
-    watched: false,
-  },
-  {
-    title: 'Pee Wee',
-    length: '2hrs',
-    onWatchList: true,
-    genre: 'comedy',
-    rating: 4,
-    watched: true,
-  },
-  {
-    title: 'Goodfellas',
-    length: '2hrs',
-    onWatchList: true,
-    genre: 'drama',
-    rating: 5,
-    watched: false,
-  },
-  {
-    title: 'The Ring',
-    length: '2hrs',
-    onWatchList: true,
-    genre: 'horror',
-    rating: 1,
-    watched: true,
-  },
-  {
-    title: "Schindler's List",
-    length: '2hrs',
-    onWatchList: true,
-    genre: 'drama',
-    rating: 2,
-    watched: false,
-  },
+  // {
+  //   title: 'bridge over the river kwai',
+  //   length: '3hrs',
+  //   watched: true,
+  //   onWatchList: false,
+  //   rating: 5,
+  //   genre: 'drama',
+  // },
+  // {
+  //   title: 'BTiLC',
+  //   length: '2hrs',
+  //   onWatchList: true,
+  //   genre: 'action',
+  //   watched: false,
+  // },
+  // {
+  //   title: 'Pee Wee',
+  //   length: '2hrs',
+  //   onWatchList: true,
+  //   genre: 'comedy',
+  //   rating: 4,
+  //   watched: true,
+  // },
+  // {
+  //   title: 'Goodfellas',
+  //   length: '2hrs',
+  //   onWatchList: true,
+  //   genre: 'drama',
+  //   rating: 5,
+  //   watched: false,
+  // },
+  // {
+  //   title: 'The Ring',
+  //   length: '2hrs',
+  //   onWatchList: true,
+  //   genre: 'horror',
+  //   rating: 1,
+  //   watched: true,
+  // },
+  // {
+  //   title: "Schindler's List",
+  //   length: '2hrs',
+  //   onWatchList: true,
+  //   genre: 'drama',
+  //   rating: 2,
+  //   watched: false,
+  // },
 ];
 
 const moviesReducer = (state = initialState, action) => {
   switch (action.type) {
+    case 'SET_MOVIES': {
+      return action.payload;
+    }
     case 'ADD_MOVIE': {
       const notInMoviesList = !state.some(movie => movie.title === action.payload.title);
       const newMoviesList = notInMoviesList ? state.concat(action.payload) : state.slice();

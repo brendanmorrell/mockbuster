@@ -1,32 +1,17 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import Rating from 'react-rating';
 
 import { updateMovie, deleteMovie } from '../actions/actions.js';
-
 class Movie extends Component {
   constructor(props) {
     super(props);
     this.changeStarCount = this.changeStarCount.bind(this);
     this.handleAddToList = this.handleAddToList.bind(this);
     this.handleDelete = this.handleDelete.bind(this);
-    this.state = {
-      clicked: false,
-    };
   }
   changeStarCount(e) {
-    let newRating = Number(e.target.id.slice(-1));
-    if (this.state.clicked) {
-      newRating -= 1;
-      console.log(newRating);
-    }
-    //  else{
-    //   console.log(this.state.);
-
-    //   newRating += 1
-    // }
-    this.setState(prevState => ({ clicked: !prevState.clicked }));
-
-    this.props.dispatch(updateMovie(this.props.title, undefined, undefined, newRating));
+    this.props.dispatch(updateMovie(this.props.title, undefined, undefined, e));
   }
   handleAddToList() {
     this.props.dispatch(updateMovie(this.props.title, undefined, !!!this.props.onWatchList));
@@ -35,40 +20,32 @@ class Movie extends Component {
     this.props.dispatch(deleteMovie(this.props.title));
   }
   render() {
-    let starCount = 0;
-    const stars = [];
-    while (starCount < 5) {
-      const key = `${this.props.title.replace(/\s/g, '-')}-${starCount + 1}`;
-      starCount < this.props.rating
-        ? stars.push(
-            <button
-              id={key}
-              onClick={e => {
-                this.changeStarCount(e);
-              }}
-              key={key}
-            >
-              ⭐
-            </button>
-          )
-        : stars.push(
-            <button
-              id={key}
-              key={key}
-              onClick={e => {
-                this.changeStarCount(e);
-              }}
-            >
-              ☆
-            </button>
-          );
-      starCount += 1;
-    }
     return (
       <div className="movie-container">
+        {this.props.rating ? (
+          <Rating
+            onChange={e => this.changeStarCount(e)}
+            start={0}
+            fractions={100}
+            initialRating={this.props.rating}
+            emptySymbol={<img src="../../public/img/star-empty.png" />}
+            fullSymbol={<img src="../../public/img/star-full.png" />}
+            placeholderSymbol={<img src="../../public/img/star-red.png" />}
+          />
+        ) : (
+          <Rating
+            onChange={e => this.changeStarCount(e)}
+            start={0}
+            fractions={1}
+            placeholderRating={3}
+            emptySymbol={<img src="../../public/img/star-empty.png" />}
+            fullSymbol={<img src="../../public/img/star-full.png" />}
+            placeholderSymbol={<img src="../../public/img/star-red.png" />}
+          />
+        )}
+
         <h1>{this.props.title}</h1>
         <h3>{this.props.genre}</h3>
-        {stars}
         <button onClick={this.handleAddToList}>
           {this.props.onWatchList ? (
             <span>remove from {this.props.watched && <span>re</span>}watch list</span>

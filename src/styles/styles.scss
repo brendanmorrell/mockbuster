@@ -1,11 +1,4 @@
-.movies-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-gap: 10px;
-  background-color: #fff;
-  color: #444;
-}
-
-.movie-container {
-  border: 1px solid black;
-}
+@import 'base/settings';
+@import 'base/base';
+@import 'components/movies';
+@import 'components/star';
