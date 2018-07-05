@@ -5,12 +5,17 @@ import createHistory from 'history/createBrowserHistory';
 import HomePage from './HomePage.jsx';
 import OtherPage from './OtherPage.jsx';
 import NotFoundPage from './NotFoundPage.jsx';
+import SearchMoviePage from './SearchMoviePage.jsx';
 const history = createHistory();
 
 class AppRouter extends Component {
   render() {
     return (
-      <HomePage />
+      <div>
+        <HomePage />
+        <SearchMoviePage />
+      </div>
+
       // <Router history={history}>
       //   <div>
       //     <Switch>

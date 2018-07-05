@@ -45,6 +45,7 @@ app.post('/updatedata', (req, res) => {
 });
 app.get('/getdata', (req, res) => {
   User.find({ githubID: currentUser.githubID }, (err, userData) => {
+    currentUser;
     res.json(userData[0]);
   });
 });
@@ -96,6 +97,15 @@ app.get('/home', (req, res) => {
     });
   });
 });
+
+app.get('/public/img/star-empty.png', (err, res) => {
+  console.log('this happened');
+  res.sendFile(path.join(publicPath, 'star-empty.png'));
+});
+app.get('/public/img/star-full.png', (err, res) => {
+  res.sendFile(path.join(publicPath, 'star-full.png'));
+});
+
 app.get('*', (req, res) => {
   if (isAuthenticated) {
     const startOfPath = req.path
@@ -107,6 +117,8 @@ app.get('*', (req, res) => {
     } else if (startOfPath === '/bundle.js') {
       res.redirect('/authenticated/bundle.js');
     } else {
+      console.log('got to this spot');
+
       res.redirect('/authenticated/');
     }
   } else {

@@ -73,7 +73,7 @@ class Movie extends Component {
             <span>add to {this.props.watched && <span>re</span>}watch list</span>
           )}
         </button>
-        <button onClick={this.handleDelete}>Delete from movies</button>
+        <button onClick={this.handleDelete}>Delete me from movies</button>
       </div>
     );
   }
