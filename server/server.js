@@ -34,7 +34,14 @@ const publicPath = path.join(__dirname, './../public/dist');
 app.use(bodyParser.json());
 
 app.post('/updatedata', (req, res) => {
-  User.update({ githubID: currentUser.githubID }, { movies: req.body }, { multi: true });
+  User.update(
+    { githubID: currentUser.githubID },
+    { movies: req.body },
+    { multi: true },
+    (err, mongooseRes) => {
+      if (err) res.send(err);
+    }
+  );
 });
 app.get('/getdata', (req, res) => {
   User.find({ githubID: currentUser.githubID }, (err, userData) => {

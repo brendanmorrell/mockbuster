@@ -1,16 +1,5 @@
 import axios from 'axios';
 
-const database = [
-  {
-    title: 'database movie',
-    length: '3hrs',
-    watched: true,
-    onWatchList: false,
-    rating: 5,
-    genre: 'drama',
-  },
-];
-
 export const setMovies = movies => ({
   type: 'SET_MOVIES',
   payload: movies,
@@ -78,14 +67,14 @@ export const startUpdateMovie = (movie = {}) => (dispatch, getState) => {
   });
 };
 
-export const deleteMovie = ({ title }) => ({
+export const deleteMovie = title => ({
   type: 'DELETE_MOVIE',
   payload: { title },
 });
 
-export const startDeleteMovie = (movie = {}) => (dispatch, getState) => {
-  const updatedList = getState().movies.filter(mov => mov.title !== movie.title);
-  dispatch(deleteMovie(movie));
+export const startDeleteMovie = title => (dispatch, getState) => {
+  const updatedList = getState().movies.filter(mov => mov.title !== title);
+  dispatch(deleteMovie(title));
   axios({
     url: '/updatedata',
     method: 'POST',

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Rating from 'react-rating';
 
-import { updateMovie, deleteMovie } from '../actions/actions.js';
+import { startUpdateMovie, startDeleteMovie } from '../actions/actions.js';
 class Movie extends Component {
   constructor(props) {
     super(props);
@@ -11,13 +11,33 @@ class Movie extends Component {
     this.handleDelete = this.handleDelete.bind(this);
   }
   changeStarCount(e) {
-    this.props.dispatch(updateMovie(this.props.title, undefined, undefined, e));
+    const movie = {
+      title: this.props.title,
+      length: this.props.length,
+      watched: this.props.watched,
+      onWatchList: this.props.onWatchList,
+      rating: e,
+      genre: this.props.genre,
+      url: this.props.url,
+    };
+    this.props.dispatch(startUpdateMovie(movie));
   }
   handleAddToList() {
-    this.props.dispatch(updateMovie(this.props.title, undefined, !!!this.props.onWatchList));
+    const movie = {
+      title: this.props.title,
+      length: this.props.length,
+      watched: this.props.watched,
+      onWatchList: !!!this.props.onWatchList,
+      rating: this.props.rating,
+      genre: this.props.genre,
+      url: this.props.url,
+    };
+    this.props.dispatch(startUpdateMovie(movie));
   }
   handleDelete() {
-    this.props.dispatch(deleteMovie(this.props.title));
+    console.log('clicked delete');
+
+    this.props.dispatch(startDeleteMovie(this.props.title));
   }
   render() {
     return (
@@ -62,10 +82,10 @@ class Movie extends Component {
 const mapDispatchToProps = dispatch => {
   return {
     updateMovie: () => {
-      dispatch(updateMovie);
+      dispatch(startUpdateMovie);
     },
     deleteMovie: () => {
-      dispatch(deleteMovie);
+      dispatch(startDeleteMovie);
     },
   };
 };
