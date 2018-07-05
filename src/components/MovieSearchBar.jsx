@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import axios from 'axios';
 import urlencode from 'urlencode';
+import { isNull } from 'util';
 
 const tmdb = {
   baseURL: 'https://api.themoviedb.org/3/search/movie?api_key=',
@@ -32,9 +33,10 @@ class MovieSearchBar extends Component {
         console.log(res);
 
         let names = res.data.results.map(movie => movie.title);
-        let urls = res.data.results.map(
-          movie => `http://image.tmdb.org/t/p/w500/${movie.poster_path}`
-        );
+        let urls = res.data.results
+          .filter(movie => movie.poster_path !== null)
+          .map(movie => `http://image.tmdb.org/t/p/w500/${movie.poster_path}`)
+          .slice(0, 5);
         this.setState({ movies: urls });
       });
   }
