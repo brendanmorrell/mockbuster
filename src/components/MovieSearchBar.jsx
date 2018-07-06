@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import axios from 'axios';
 import urlencode from 'urlencode';
-import { isNull } from 'util';
+
+import MovieResult from './MovieResult.jsx';
 
 const tmdb = {
   baseURL: 'https://api.themoviedb.org/3/search/movie?api_key=',
@@ -30,33 +31,40 @@ class MovieSearchBar extends Component {
         `https://api.themoviedb.org/3/search/movie?api_key=${tmdb.apiKey}&query=${urlEncodedQuery}`
       )
       .then(res => {
-        console.log(res);
-
-        let names = res.data.results.map(movie => movie.title);
-        let urls = res.data.results
-          .filter(movie => movie.poster_path !== null)
-          .map(movie => `http://image.tmdb.org/t/p/w500/${movie.poster_path}`)
-          .slice(0, 5);
-        this.setState({ movies: urls });
+        let movies = res.data.results.filter(movie => movie.poster_path !== null).map(movie => {
+          let { genre_ids, overview, release_date, vote_average, poster_path, title } = movie;
+          poster_path = `http://image.tmdb.org/t/p/w500/${poster_path}`;
+          return { genre_ids, overview, release_date, vote_average, poster_path, title };
+        });
+        this.setState({ movies });
       });
   }
   render() {
-    const posters = this.state.movies.map(url => {
-      return <img src={url} key={url} height="42" width="42" />;
-    });
+    const posters = this.state.movies.length
+      ? this.state.movies.map(movie => {
+          return (
+            <MovieResult
+              favorites={this.props.favorites}
+              movie={{ ...movie }}
+              key={movie.url + `${Math.random()}`}
+              searchMovie={true}
+            />
+          );
+        })
+      : [];
     return (
       <div>
         <h3>search bar</h3>
         <input type="text" value={this.state.value} onChange={this.handleChange} />
-        {posters}
+        <div className="movies-container">{posters.length ? posters : ''}</div>
       </div>
     );
   }
 }
 
-const mapStateToProps = (state, ownProps) => {
+const mapStateToProps = state => {
   return {
-    prop: state.prop,
+    favorites: state.movies,
   };
 };
 const mapDispatchToProps = (dispatch, ownProps) => {

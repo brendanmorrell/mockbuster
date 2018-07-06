@@ -1,0 +1,50 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $l-size;
+
+  @media (max-width: $desktop-breakpoint) {
+    margin-bottom: $m-size;
+  }
+}
+
+.input-group__row {
+  margin-bottom: $m-size;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+
+  @media(max-width: $desktop-breakpoint) {
+    margin-bottom: $s-size;
+  }
+}
+
+
+.input-filter-combo {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.top-two-inputs-edit-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  > div {
+    border-top-right-radius: 7px !important;
+    border-bottom-right-radius: 7px !important;
+    > div {
+      border-top-right-radius: 7px !important;
+      border-bottom-right-radius: 7px !important;
+      > div {
+        border-top-right-radius: 7px !important;
+        border-bottom-right-radius: 7px !important;
+        > div {
+          border-top-right-radius: 7px !important;
+          border-bottom-right-radius: 7px !important;
+        }
+      }
+    }
+  }
+}

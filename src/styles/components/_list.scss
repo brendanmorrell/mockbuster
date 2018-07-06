@@ -1,0 +1,99 @@
+.list-header {
+  background: $very-light-grey;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border: 1px solid darken($very-light-grey, 7%);
+  color: $dark-grey;
+  display: flex;
+  justify-content: space-between;
+  padding: $s-size $m-size;
+}
+
+.list-body {
+  margin-bottom: $l-size;
+  @media (max-width: $desktop-breakpoint) {
+    margin-bottom: $m-size;
+  }
+}
+
+
+.list-item {
+  background: white;
+  max-height: 20rem;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  align-items: center;
+  border: 1px solid darken($very-light-grey, 7%);
+  border-top: none;
+  display: flex;
+  justify-content: space-between;
+  padding: $s-size;
+  transition: background .3s ease;
+  h3 {
+    margin-bottom: $s-size;
+  }
+  &:hover {
+    background: $very-light-grey;
+  }
+  a {
+    text-decoration: none;
+    color: $dark-grey;
+  }
+  > * {
+    min-width: 30%;
+  }
+  p {
+    padding: $m-size;
+    margin-right: $l-size;
+  }
+}
+.just-left-radius {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right: 0px;
+}
+
+.add-right-radius {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.list-item--message {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  align-items: center;
+  color: $medium-grey;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 30px;
+  &:hover {
+    background: white;
+  }
+  > p {
+    max-height: 1rem;
+  }
+}
+
+.list-item__title {
+  margin: 0;
+}
+
+.list-item__subtitle {
+  color: $medium-grey;
+  font-size: $font-size-medium;
+}
+
+.list-item__data {
+
+}
+
+
+.list-item__main-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+  padding-left: $m-size;
+}

@@ -1,0 +1,23 @@
+.box-layout {
+  align-items: center;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("/images/bg.png");
+  background-size: 5px;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.box-layout__box {
+  background: white;
+  color: $dark-grey;
+  border-radius: 5px;
+  padding: $l-size $m-size;
+  text-align: center;
+  width: 40rem;
+}
+
+.box-layout__title {
+  margin: 0 0 $m-size 0;
+  line-height: 1;
+}

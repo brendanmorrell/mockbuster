@@ -1,13 +1,13 @@
 import React from 'react';
 
 import MovieSearchBar from './MovieSearchBar.jsx';
-import MovieSearchResults from './MovieSearchResults.jsx';
+import Header from './Header.jsx';
 
 export default () => {
   return (
     <div>
+      <Header />
       <MovieSearchBar />
-      <MovieSearchResults />
     </div>
   );
 };

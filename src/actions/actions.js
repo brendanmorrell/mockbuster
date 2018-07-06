@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { userInfo } from 'os';
 
 export const setMovies = movies => ({
   type: 'SET_MOVIES',
@@ -9,6 +10,7 @@ export const startSetMovies = () => {
   return (dispatch, getState) => {
     axios.get('http://localhost:8080/getdata').then(res => {
       dispatch(setMovies(res.data.movies));
+      dispatch(setUser(res.data));
     });
   };
 };
@@ -36,6 +38,8 @@ export const addMovie = ({
 
 export const startAddMovie = (movie = {}) => (dispatch, getState) => {
   const updatedList = getState().movies.concat(movie);
+  console.log('updated list', updatedList);
+
   dispatch(addMovie(movie));
   axios({
     url: '/updatedata',
@@ -81,3 +85,8 @@ export const startDeleteMovie = title => (dispatch, getState) => {
     data: updatedList,
   });
 };
+
+export const setUser = userInfo => ({
+  type: 'SET_USER',
+  payload: userInfo,
+});

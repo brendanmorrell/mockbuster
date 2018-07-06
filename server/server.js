@@ -3,10 +3,16 @@ const path = require('path');
 const request = require('request');
 const bodyParser = require('body-parser');
 const User = require('../db/users.js');
+const fs = require('fs');
 
 const app = express();
 const port = process.env.PORT || 8080;
 let currentUser = {};
+
+app.use((req, res, next) => {
+  console.log(req.path);
+  next();
+});
 
 const github = {
   clientID: '1393fe5adf5f5882f79c',
@@ -28,9 +34,10 @@ const github = {
   },
 };
 let isAuthenticated = false;
+let secondLogin = false;
 console.log('​isAuthenticated', isAuthenticated);
 
-const publicPath = path.join(__dirname, './../public/dist');
+const publicPath = path.join(__dirname, './../public/');
 app.use(bodyParser.json());
 
 app.post('/updatedata', (req, res) => {
@@ -51,7 +58,7 @@ app.get('/getdata', (req, res) => {
 });
 app.get('/authenticated/' || '/authenticated', (req, res) => {
   if (isAuthenticated) {
-    res.sendFile(path.join(publicPath, 'index.html'));
+    res.sendFile(path.join(publicPath, 'dist', 'index.html'));
   } else {
     res.redirect('/');
   }
@@ -60,7 +67,14 @@ app.get('/authenticated/bundle.js', (req, res) => {
   res.sendFile(path.join(__dirname, '../public/dist/bundle.js'));
 });
 
+app.post('/logout', (req, res) => {
+  isAuthenticated = false;
+  res.sendFile(path.join(__dirname, '../unathenticated/login.html'));
+});
+
 app.get('/home', (req, res) => {
+  console.log('called');
+
   const url = github.postCodeURL() + req.query.code;
   request.post(url, (err, gitRes, accessToken) => {
     const url = github.authGetUrl() + accessToken;
@@ -98,14 +112,6 @@ app.get('/home', (req, res) => {
   });
 });
 
-app.get('/public/img/star-empty.png', (err, res) => {
-  console.log('this happened');
-  res.sendFile(path.join(publicPath, 'star-empty.png'));
-});
-app.get('/public/img/star-full.png', (err, res) => {
-  res.sendFile(path.join(publicPath, 'star-full.png'));
-});
-
 app.get('*', (req, res) => {
   if (isAuthenticated) {
     const startOfPath = req.path
@@ -113,15 +119,22 @@ app.get('*', (req, res) => {
       .slice(0, 15)
       .join('');
     if (startOfPath === '/authenticated/') {
-      res.sendFile(path.join(publicPath, 'index.html'));
-    } else if (startOfPath === '/bundle.js') {
-      res.redirect('/authenticated/bundle.js');
+      res.sendFile(path.join(publicPath, 'dist', 'index.html'));
     } else {
-      console.log('got to this spot');
-
-      res.redirect('/authenticated/');
+      console.log('path: ', req.path);
+      console.log('​startOfPath', startOfPath);
+      fs.exists(path.join(publicPath, '..', req.path), exists => {
+        if (exists) {
+          if (req.path === '/') res.redirect('/authenticated/');
+          res.sendFile(path.join(publicPath, '..', req.path));
+        } else {
+          res.redirect('/authenticated/notfound');
+        }
+      });
     }
   } else {
+    console.log('here');
+
     res.sendFile(path.join(__dirname, '../unathenticated/login.html'));
   }
 });

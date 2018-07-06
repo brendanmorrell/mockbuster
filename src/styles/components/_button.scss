@@ -1,0 +1,107 @@
+.button {
+  box-shadow: rgba(0, 0, 0, 0.12) -1px 3px 6px, rgba(0, 0, 0, 0.12) -1px 3px 4px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: $font-size-large;
+  font-weight: 300;
+  line-height: 1;
+  padding: $s-size;
+  text-decoration: none;
+  background-color: $peach;
+  &:hover {
+    background-color: darken($peach, 3%);
+  }
+  &:active {
+    background-color: darken($peach, 7%);
+  }
+}
+
+.button--link {
+  box-shadow: 0px 0px 0px;
+  background: none;
+  &:hover {
+    background-color: $light-red;
+  }
+}
+
+.button--secondary {
+  box-shadow: rgba(0, 0, 0, 0.12) -1px 3px 6px, rgba(0, 0, 0, 0.12) -1px 3px 4px;
+  @extend .button;
+  background-color: $yellow;
+  &:hover {
+    background-color: darken($yellow, 3%);
+  }
+  &:active {
+    background-color: darken($yellow, 7%);
+  }
+}
+
+.button_clear--small {
+  border: none;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: darken($very-light-grey, 20%);
+  &:hover {
+    background-color: $medium-grey;
+  }
+  &:focus {
+    outline:0;
+  }
+  &:active {
+    background-color: darken($medium-grey, 7%);
+  }
+}
+
+.div-around-questions {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin-top: 3px;
+  > div {
+    border-top-left-radius: 2px !important;
+    border-bottom-left-radius: 2px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    > button {
+      border-top-left-radius: 2px !important;
+      border-bottom-left-radius: 2px !important;
+      border-top-right-radius: 0px !important;
+      border-bottom-right-radius: 0px !important;
+      > div {
+        border-top-left-radius: 2px !important;
+        border-bottom-left-radius: 2px !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+        > span {
+          border-top-left-radius: 2px !important;
+          border-bottom-left-radius: 2px !important;
+          border-top-right-radius: 0px !important;
+          border-bottom-right-radius: 0px !important;
+        }
+        > div {
+          border-top-left-radius: 2px !important;
+          border-bottom-left-radius: 2px !important;
+          border-top-right-radius: 0px !important;
+          border-bottom-right-radius: 0px !important;
+          > span {
+            border-top-left-radius: 2px !important;
+            border-bottom-left-radius: 2px !important;
+            border-top-right-radius: 0px !important;
+            border-bottom-right-radius: 0px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.flat {
+  box-shadow: 0px 0px 0px;
+}

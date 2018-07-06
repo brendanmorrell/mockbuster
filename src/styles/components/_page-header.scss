@@ -1,0 +1,19 @@
+.page-header {
+  background: $light-blue;
+  margin-bottom: $l-size;
+  padding: $l-size 0;
+}
+
+.page-header__title {
+  font-weight: 300;
+  margin: 0;
+}
+
+.page-header__subtitle {
+  @extend .page-header__title;
+  font-size: $font-size-large;
+}
+
+.page-header__actions {
+  margin-top: $m-size;
+}

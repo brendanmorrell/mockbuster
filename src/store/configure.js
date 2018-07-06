@@ -3,15 +3,19 @@ import thunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
 
 import moviesReducer from '../reducers/moviesReducer';
-
-// const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose; // eslint-disable-line
+import usersReducer from '../reducers/usersReducer';
+import filtersReducer from '../reducers/filtersReducer';
+import historyReducer from '../reducers/historyReducer.js';
 
 export default () => {
   const store = createStore(
     combineReducers({
       movies: moviesReducer,
+      users: usersReducer,
+      filters: filtersReducer,
+      history: historyReducer,
     }),
-    /* composeEnhancers */ composeWithDevTools(applyMiddleware(thunk))
+    composeWithDevTools(applyMiddleware(thunk))
   );
 
   return store;

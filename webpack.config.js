@@ -18,12 +18,17 @@ module.exports = {
       // { test: /.node$/, loader: 'node-loader' },
     ],
   },
-  node: {
-    fs: 'empty',
-    net: 'empty',
-    tls: 'empty',
-    dns: 'empty',
-    module: 'empty',
+  // node: {
+  //   fs: 'empty',
+  //   net: 'empty',
+  //   tls: 'empty',
+  //   dns: 'empty',
+  //   module: 'empty',
+  // },
+  devServer: {
+    contentBase: path.join(__dirname, 'public/dist'),
+    historyApiFallback: true,
+    publicPath: '/dist/',
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -31,7 +36,4 @@ module.exports = {
       template: 'template.html',
     }),
   ],
-  // devServer: {
-  //   port: 3000,
-  // },
 };

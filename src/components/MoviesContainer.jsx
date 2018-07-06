@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import FlipMove from 'react-flip-move';
 
-import Movie from './Movie.jsx';
+import MovieResult from './MovieResult.jsx';
 
 class MoviesContainer extends Component {
   constructor(props) {
@@ -10,27 +10,39 @@ class MoviesContainer extends Component {
   }
 
   render() {
-    let movieComponents = this.props.movies.map(x => (
-      <Movie
-        title={x.title}
-        length={x.length || '2hrs'}
-        watched={x.watched || false}
-        onWatchList={x.onWatchList || false}
-        genre={x.genre || 'comedy'}
-        rating={x.rating || 5}
-        url={x.url || 'www.fakeimage.com'}
-        key={x.title}
-      />
-    ));
+    let movieComponents = this.props.movies.map(x => {
+      return (
+        <MovieResult
+          title={x.title}
+          length={x.length || '2hrs'}
+          watched={x.watched || false}
+          onWatchList={x.onWatchList || false}
+          genre={x.genre || 'comedy'}
+          rating={x.rating || 5}
+          url={x.url || 'nothing'}
+          key={x.title}
+          favorites={this.props.movies}
+          movie={{ title: x.title }}
+          style={{
+            background: `url(hjdsahjadsjhk)`,
+          }}
+        />
+      );
+    });
     return (
-      <div className="movies-container">
-        <FlipMove duration={350} easing="ease-in-out">
-          {movieComponents}
-        </FlipMove>
-      </div>
+      <FlipMove duration={350} easing="ease-in-out">
+        <h3>Movie Collection</h3>
+        <div className="movies-container">{movieComponents}</div>
+      </FlipMove>
     );
   }
 }
+
+// <div>
+//   <h3>search bar</h3>
+//   <input type="text" value={this.state.value} onChange={this.handleChange} />
+//   <div className="movies-container">{posters.length ? posters : ''}</div>
+// </div>;
 
 const mapStateToProps = ({ movies }) => ({ movies });
 

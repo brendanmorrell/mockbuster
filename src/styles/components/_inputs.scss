@@ -1,0 +1,91 @@
+.text-input {
+  padding-left: $s-size;
+  border: 1px solid #cacccd;
+  border-radius: 5px;
+  height: 50px;
+  min-width: 106px;
+  width:100%;
+  font-size: $font-size-large;
+  font-weight: $s-weight;
+}
+
+.select {
+  @extend .text-input;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  min-width: 120px;
+  &:hover {
+    background-color: $very-light-grey;
+  }
+  &:active {
+    background-color: darken($very-light-grey, 4%);
+    outline: none;
+  }
+  @media (max-width: $desktop-breakpoint) {
+    min-width: 40px;
+  }
+}
+
+.select-mozilla {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.filters-normal {
+  background-color: white;
+  background: url('/images/arrow-down.png');
+  border:1px solid #cacccd;
+  border-radius: 0;
+  border-left: none;
+  background-size: 100% 100%;
+  margin-left: 0;
+  width: 40px;
+  height: 50px;
+  &:hover {
+    background: linear-gradient( rgba(200, 200, 200, 0.1), rgba(200, 200, 200, 0.1) ), url('/images/arrow-down.png');
+    border:1px solid #cacccd;
+    border-radius: 0;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-size: 100% 100%;
+    margin-left: 0;
+  }
+}
+.filters-reversed {
+  background-color: white;
+  background: url('/images/arrow-up.png');
+  border:1px solid #cacccd;
+  border-radius: 0;
+  border-left: none;
+  background-size: 100% 100%;
+  margin-left: 0;
+  width: 40px;
+  height: 50px;
+  &:hover {
+    background: linear-gradient( rgba(200, 200, 200, 0.1), rgba(200, 200, 200, 0.1) ), url('/images/arrow-up.png');
+    border:1px solid #cacccd;
+    border-radius: 0;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-size: 100% 100%;
+    margin-left: 0;
+  }
+}
+
+// .input-filter-button {
+//   @media(max-width: $desktop-breakpoint) {
+//     width:30%;
+//     height:40px;
+//     background-size:contain;
+//     background-repeat: no-repeat;
+//     background-position: center center;
+//   }
+// }
+
+// .text-area {
+//   @extend .text-input;
+//   height: 10rem;
+// }
