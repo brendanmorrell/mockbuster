@@ -17,7 +17,9 @@ app.use((req, res, next) => {
 const github = {
   clientID: '1393fe5adf5f5882f79c',
   clientSecret: '719422b56f245e7c13f60da7223113f3c618e884',
-  redirectURI: 'http://localhost:8080/home',
+  redirectURI: process.env.PORT
+    ? 'https://mockbuster.herokuapp.com/home'
+    : 'http://localhost:8080/home',
   corsAnywhere: 'https://cors-anywhere.herokuapp.com/',
   signInURL() {
     return `${this.corsAnywhere}https://github.com/login/oauth/authorize?client_id=${
@@ -74,7 +76,6 @@ app.post('/logout', (req, res) => {
 });
 
 app.get('/home', (req, res) => {
-
   const url = github.postCodeURL() + req.query.code;
   request.post(url, (err, gitRes, accessToken) => {
     const url = github.authGetUrl() + accessToken;
