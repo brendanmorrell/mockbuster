@@ -17,7 +17,7 @@ class Header extends Component {
   }
 
   render() {
-    const username = this.props.user.githubInfo ? this.props.user.githubInfo.login : 'no one';
+    const username = this.props.user.githubInfo ? this.props.user.githubInfo.login : '';
     return (
       <header className="header">
         <div className="content-container">

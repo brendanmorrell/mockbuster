@@ -10,7 +10,7 @@ const LoginPage = props => (
       <h1 className="box-layout__title">MOCKBUSTER</h1>
       <h5>Can you smell the stale popcorn and old candy?</h5>
       <h5>Be magically whisked away to the 90s</h5>
-      <a href="https://github.com/login/oauth/authorize?client_id=1393fe5adf5f5882f79c&redirect_uri=&http://localhost:8080/home">
+      <a href="https://github.com/login/oauth/authorize?client_id=1393fe5adf5f5882f79c&redirect_uri=&https://mockbuster.herokuapp.com/home">
         <button
           className="button"
           // onClick={() => {

@@ -7,7 +7,7 @@ export const setMovies = movies => ({
 
 export const startSetMovies = () => {
   return (dispatch, getState) => {
-    axios.get('http://localhost:8080/getdata').then(res => {
+    axios.get('/getdata').then(res => {
       dispatch(setMovies(res.data.movies));
       dispatch(setUser(res.data));
     });
