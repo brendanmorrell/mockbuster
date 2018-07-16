@@ -56,6 +56,7 @@ app.get('/getdata', (req, res) => {
     res.json(userData[0]);
   });
 });
+
 app.get('/authenticated/' || '/authenticated', (req, res) => {
   if (isAuthenticated) {
     res.sendFile(path.join(publicPath, 'dist', 'index.html'));
@@ -73,7 +74,6 @@ app.post('/logout', (req, res) => {
 });
 
 app.get('/home', (req, res) => {
-  console.log('called');
 
   const url = github.postCodeURL() + req.query.code;
   request.post(url, (err, gitRes, accessToken) => {

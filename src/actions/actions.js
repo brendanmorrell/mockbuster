@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { userInfo } from 'os';
 
 export const setMovies = movies => ({
   type: 'SET_MOVIES',
