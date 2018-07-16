@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:prod": "webpack -p --env production",
-    "start": "nodemon server/server.js",
+    "start": "node server/server.js",
     "dev": "webpack-dev-server --mode development",
     "heroku-postbuild": "yarn run build:prod"
   },
