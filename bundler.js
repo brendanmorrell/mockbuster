@@ -59,6 +59,8 @@ WEBPACK
   angular2-template-loader Loads and compiles Angular Components
 */
 function createAsset(filename) {
+  filename = path.join('./', filename);
+
   // goal is to see how we will eventually need to process each file/what loaders may be necessary
   // Read file to see 1) what the file type and  2) what dependencies it has
 
@@ -66,7 +68,7 @@ function createAsset(filename) {
   // should also make sure the method of traversal we are using is correct, a la node mostly, i.e. that the way we are looking for things with extensions vs without is appropriate to the way node or other protocols look for the various files that are being parsed as dependencies
   let filetype = path.extname(filename);
   const id = ID++;
-  const dependencies = [];
+  let dependencies = [];
   const nodePath = path.join(__dirname, 'node_modules');
   const nodeModuleDependencies = { core: [], npm: [] };
   let content;
@@ -76,15 +78,17 @@ function createAsset(filename) {
     content = fs.readFileSync(filename, 'utf-8');
     // account for situations where extension is missing. we still want to match any files that do exist with that name if they exist
   } else {
-    if()
     // if it is a relative, path, go there and try to grab file
     if (filename.includes('/')) {
       //NOTE: currently just grab first match. that might not be ideal in situations with multiple extsnison matches (e.g. 'file1.js file1.css, gile1.txt etc.)
       let [matchingFile] = glob.sync(filename + '.*');
-      if (!glob.sync(filename + '.*')) {
-        console.log('no match found');
-
-        console.log(filename);
+      // here, if no file matches, we basically check to see if inserting an underscore after the last '/' (as is done with partials)
+      // gives a matching file. if so, we use that
+      if (!matchingFile) {
+        const lastSlashIndex = filename.lastIndexOf('/');
+        filename =
+          filename.substring(0, lastSlashIndex + 1) + '_' + filename.substring(lastSlashIndex + 1);
+        matchingFile = glob.sync(filename + '.*')[0];
       }
       if (matchingFile) {
         filename = matchingFile;
@@ -131,20 +135,10 @@ function createAsset(filename) {
         node.prelude.children.head.data
       ) {
         //duplicate code, need to make it work completely using one or other (cssTree or CSSOM. postcss may be best)
-        const importPath = node.prelude.children.head.data.value
+        let importPath = node.prelude.children.head.data.value
           //they include single quotes, so i get rid of these
-          .slice(1, node.prelude.children.head.data.value.length - 1)
-          .split('')
-          // this is a very ugly way of adding the underscore that partials have in front of the file name (this is not included in the name of partial imports in scss and sass)
-          // this may be a problem when you are doing css imports or are importing non-partials.
-          // .map((char, i, arr) => {
-          //   // add '/_' to beginning of partials that do not have a '/'
-          //   if (!arr.includes('/') && i === 0) return '/_' + char;
-          //   // add '_' after the last slash if the files have a slash
-          //   if (char === '/' && arr.indexOf('/', i + 1) === -1) return '/_';
-          //   return char;
-          // })
-          .join('');
+          .slice(1, node.prelude.children.head.data.value.length - 1);
+        if (!importPath.includes('/')) importPath = './' + importPath;
         // i do not currently append .scss or .sass since i don't know how to tell the difference
         dependencies.push(importPath);
       }
@@ -187,6 +181,10 @@ function createAsset(filename) {
   // console.log('​filename', filename);
   // console.log('​dependencies', dependencies);
   // console.log('​filetype', filetype);
+  dependencies = dependencies.map(x => {
+    if (x[0] === '.' && x[1] === '/') x = x.slice(2);
+    return x;
+  });
   return {
     id,
     filename,
@@ -206,11 +204,7 @@ function createGraph(entry) {
     const dirname = path.dirname(asset.filename);
 
     asset.dependencies.forEach(relativePath => {
-      // console.log('relbefore: ', relativePath);
-
-      // relativePath = path.join('./', relativePath);
-      // console.log('relafter: ', relativePath);
-
+      // remove any ./ or / from the file. if we actually use the dependency mapping, we can just remove the same from the actual require statements
       const absolutePath = path.join(dirname, relativePath);
       const child = createAsset(absolutePath);
       asset.mapping[relativePath] = child.id;
@@ -252,5 +246,3 @@ const graph = createGraph('./src/index.js');
 console.log('​graph', graph);
 
 // const result = bundle(graph);
-
-// STILL FEEL LIKE IM MATCHING ACTIONS AND USERACTIONS TOO FREQUENTLY
