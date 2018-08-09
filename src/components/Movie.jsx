@@ -48,9 +48,6 @@ class Movie extends Component {
             start={0}
             fractions={100}
             initialRating={this.props.rating}
-            emptySymbol={<img src="../../public/img/star-empty.png" />}
-            fullSymbol={<img src="../../public/img/star-full.png" />}
-            placeholderSymbol={<img src="../../public/img/star-red.png" />}
           />
         ) : (
           <Rating
@@ -58,9 +55,6 @@ class Movie extends Component {
             start={0}
             fractions={1}
             placeholderRating={3}
-            emptySymbol={<img src="../../public/img/star-empty.png" />}
-            fullSymbol={<img src="../../public/img/star-full.png" />}
-            placeholderSymbol={<img src="../../public/img/star-red.png" />}
           />
         )}
 

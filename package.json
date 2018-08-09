@@ -8,7 +8,8 @@
     "build:prod": "webpack -p --env production",
     "start": "nodemon",
     "dev": "webpack-dev-server --mode development",
-    "heroku-postbuild": "yarn run build:prod"
+    "heroku-postbuild": "yarn run build:prod",
+    "parcel": "node parcel_init.js"
   },
   "author": "",
   "license": "ISC",
@@ -38,6 +39,8 @@
     "mongoose": "^5.2.0",
     "node-loader": "^0.6.0",
     "node-sass": "^4.9.0",
+    "parcel": "^1.9.7",
+    "parcel-bundler": "^1.9.7",
     "path": "^0.12.7",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
