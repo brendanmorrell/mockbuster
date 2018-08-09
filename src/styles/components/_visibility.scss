@@ -1,3 +1,4 @@
+@import 'movies';
 .show-for-desktop {
   @media (max-width: $desktop-breakpoint - .01rem) {
     display: none;
