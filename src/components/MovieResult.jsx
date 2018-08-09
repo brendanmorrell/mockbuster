@@ -124,9 +124,6 @@ class MovieResult extends Component {
           start={0}
           fractions={100}
           initialRating={this.state.rating ? this.state.rating : this.props.movie.vote_average / 2}
-          emptySymbol={<img src="../../public/img/star-empty.png" />}
-          fullSymbol={<img src="../../public/img/star-full.png" />}
-          placeholderSymbol={<img src="../../public/img/star-red.png" />}
         />
         <button onClick={this.handleAddMovie}>Add to collection</button>
         {this.props.movie ? (

@@ -1,0 +1,2462 @@
+[
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\index.js",
+    "buildTime": 921,
+    "bundledSize": 709
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react\\index.js",
+    "buildTime": 509,
+    "bundledSize": 157
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react\\cjs\\react.production.min.js",
+    "buildTime": 4495,
+    "bundledSize": 5546
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\object-assign\\index.js",
+    "buildTime": 360,
+    "bundledSize": 1936
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\invariant.js",
+    "buildTime": 393,
+    "bundledSize": 440
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\emptyObject.js",
+    "buildTime": 436,
+    "bundledSize": 89
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\emptyFunction.js",
+    "buildTime": 401,
+    "bundledSize": 318
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-dom\\index.js",
+    "buildTime": 493,
+    "bundledSize": 374
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+    "buildTime": 7303,
+    "bundledSize": 93376
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\ExecutionEnvironment.js",
+    "buildTime": 476,
+    "bundledSize": 344
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\getActiveElement.js",
+    "buildTime": 391,
+    "bundledSize": 231
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\shallowEqual.js",
+    "buildTime": 2452,
+    "bundledSize": 442
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\containsNode.js",
+    "buildTime": 381,
+    "bundledSize": 299
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\isTextNode.js",
+    "buildTime": 478,
+    "bundledSize": 164
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\isNode.js",
+    "buildTime": 986,
+    "bundledSize": 291
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\index.js",
+    "buildTime": 1051,
+    "bundledSize": 611
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\components\\Provider.js",
+    "buildTime": 7603,
+    "bundledSize": 1915
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\prop-types\\index.js",
+    "buildTime": 1350,
+    "bundledSize": 150
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\prop-types\\factoryWithThrowingShims.js",
+    "buildTime": 966,
+    "bundledSize": 688
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\prop-types\\lib\\ReactPropTypesSecret.js",
+    "buildTime": 1689,
+    "bundledSize": 133
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\utils\\PropTypes.js",
+    "buildTime": 689,
+    "bundledSize": 634
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\utils\\warning.js",
+    "buildTime": 1557,
+    "bundledSize": 264
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\components\\connectAdvanced.js",
+    "buildTime": 7856,
+    "bundledSize": 5264
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js",
+    "buildTime": 1514,
+    "bundledSize": 700
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\invariant\\browser.js",
+    "buildTime": 1401,
+    "bundledSize": 420
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\utils\\Subscription.js",
+    "buildTime": 1293,
+    "bundledSize": 1267
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\connect\\connect.js",
+    "buildTime": 7670,
+    "bundledSize": 2243
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\utils\\shallowEqual.js",
+    "buildTime": 813,
+    "bundledSize": 498
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\connect\\mapDispatchToProps.js",
+    "buildTime": 1063,
+    "bundledSize": 679
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\redux\\es\\redux.js",
+    "buildTime": 7705,
+    "bundledSize": 7335
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\symbol-observable\\es\\index.js",
+    "buildTime": 1936,
+    "bundledSize": 444
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\symbol-observable\\es\\ponyfill.js",
+    "buildTime": 1643,
+    "bundledSize": 276
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\connect\\wrapMapToProps.js",
+    "buildTime": 1459,
+    "bundledSize": 899
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\utils\\verifyPlainObject.js",
+    "buildTime": 1550,
+    "bundledSize": 435
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\isPlainObject.js",
+    "buildTime": 1489,
+    "bundledSize": 709
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\_baseGetTag.js",
+    "buildTime": 1954,
+    "bundledSize": 559
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\_Symbol.js",
+    "buildTime": 728,
+    "bundledSize": 264
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\_root.js",
+    "buildTime": 3773,
+    "bundledSize": 357
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\_freeGlobal.js",
+    "buildTime": 1369,
+    "bundledSize": 219
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\_getRawTag.js",
+    "buildTime": 816,
+    "bundledSize": 466
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\_objectToString.js",
+    "buildTime": 1678,
+    "bundledSize": 203
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\_getPrototype.js",
+    "buildTime": 2059,
+    "bundledSize": 297
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\_overArg.js",
+    "buildTime": 811,
+    "bundledSize": 187
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\isObjectLike.js",
+    "buildTime": 1477,
+    "bundledSize": 185
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\connect\\mapStateToProps.js",
+    "buildTime": 1134,
+    "bundledSize": 453
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\connect\\mergeProps.js",
+    "buildTime": 1205,
+    "bundledSize": 891
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\connect\\selectorFactory.js",
+    "buildTime": 1164,
+    "bundledSize": 1215
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\connect\\verifySubselectors.js",
+    "buildTime": 1557,
+    "bundledSize": 610
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\store\\configure.js",
+    "buildTime": 1597,
+    "bundledSize": 870
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\redux-thunk\\es\\index.js",
+    "buildTime": 7714,
+    "bundledSize": 313
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\redux-devtools-extension\\index.js",
+    "buildTime": 6580,
+    "bundledSize": 538
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\reducers\\moviesReducer.js",
+    "buildTime": 8358,
+    "bundledSize": 773
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\reducers\\usersReducer.js",
+    "buildTime": 8385,
+    "bundledSize": 329
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\reducers\\filtersReducer.js",
+    "buildTime": 8297,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\reducers\\historyReducer.js",
+    "buildTime": 8276,
+    "bundledSize": 321
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\AppRouter.jsx",
+    "buildTime": 1750,
+    "bundledSize": 2595
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\index.js",
+    "buildTime": 7741,
+    "bundledSize": 1541
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\BrowserRouter.js",
+    "buildTime": 1426,
+    "bundledSize": 1743
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\node_modules\\warning\\warning.js",
+    "buildTime": 1625,
+    "bundledSize": 605
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\es\\index.js",
+    "buildTime": 1524,
+    "bundledSize": 1190
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\es\\createBrowserHistory.js",
+    "buildTime": 1924,
+    "bundledSize": 4293
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\warning\\browser.js",
+    "buildTime": 1157,
+    "bundledSize": 99
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\es\\LocationUtils.js",
+    "buildTime": 2119,
+    "bundledSize": 1405
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\resolve-pathname\\index.js",
+    "buildTime": 1378,
+    "bundledSize": 786
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\value-equal\\index.js",
+    "buildTime": 1651,
+    "bundledSize": 790
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\es\\PathUtils.js",
+    "buildTime": 1422,
+    "bundledSize": 933
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\es\\createTransitionManager.js",
+    "buildTime": 1800,
+    "bundledSize": 968
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\es\\DOMUtils.js",
+    "buildTime": 803,
+    "bundledSize": 1157
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\es\\createHashHistory.js",
+    "buildTime": 2082,
+    "bundledSize": 4035
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\es\\createMemoryHistory.js",
+    "buildTime": 2449,
+    "bundledSize": 2804
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\Router.js",
+    "buildTime": 1427,
+    "bundledSize": 273
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\Router.js",
+    "buildTime": 1464,
+    "bundledSize": 2413
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\node_modules\\warning\\warning.js",
+    "buildTime": 1498,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\HashRouter.js",
+    "buildTime": 1486,
+    "bundledSize": 1736
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\Link.js",
+    "buildTime": 1691,
+    "bundledSize": 2647
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\MemoryRouter.js",
+    "buildTime": 1297,
+    "bundledSize": 285
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\MemoryRouter.js",
+    "buildTime": 1443,
+    "bundledSize": 1747
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\NavLink.js",
+    "buildTime": 1127,
+    "bundledSize": 1942
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\Route.js",
+    "buildTime": 1128,
+    "bundledSize": 271
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\Route.js",
+    "buildTime": 1371,
+    "bundledSize": 3981
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\matchPath.js",
+    "buildTime": 1477,
+    "bundledSize": 915
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\node_modules\\path-to-regexp\\index.js",
+    "buildTime": 1117,
+    "bundledSize": 3272
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\isarray\\index.js",
+    "buildTime": 1676,
+    "bundledSize": 151
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\Prompt.js",
+    "buildTime": 898,
+    "bundledSize": 273
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\Prompt.js",
+    "buildTime": 1323,
+    "bundledSize": 1894
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\Redirect.js",
+    "buildTime": 1715,
+    "bundledSize": 277
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\Redirect.js",
+    "buildTime": 1396,
+    "bundledSize": 2654
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\generatePath.js",
+    "buildTime": 1271,
+    "bundledSize": 558
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\StaticRouter.js",
+    "buildTime": 955,
+    "bundledSize": 285
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\StaticRouter.js",
+    "buildTime": 1754,
+    "bundledSize": 3326
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\Switch.js",
+    "buildTime": 1273,
+    "bundledSize": 273
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\Switch.js",
+    "buildTime": 2235,
+    "bundledSize": 2332
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\generatePath.js",
+    "buildTime": 1142,
+    "bundledSize": 285
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\matchPath.js",
+    "buildTime": 979,
+    "bundledSize": 279
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\withRouter.js",
+    "buildTime": 1282,
+    "bundledSize": 281
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\withRouter.js",
+    "buildTime": 1403,
+    "bundledSize": 1060
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\createBrowserHistory.js",
+    "buildTime": 7250,
+    "bundledSize": 4260
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\LocationUtils.js",
+    "buildTime": 1070,
+    "bundledSize": 1372
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\PathUtils.js",
+    "buildTime": 655,
+    "bundledSize": 900
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\createTransitionManager.js",
+    "buildTime": 818,
+    "bundledSize": 935
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\DOMUtils.js",
+    "buildTime": 1333,
+    "bundledSize": 1124
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\HomePage.jsx",
+    "buildTime": 7870,
+    "bundledSize": 1732
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\ContentContainer.jsx",
+    "buildTime": 1692,
+    "bundledSize": 512
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\MoviesContainer.jsx",
+    "buildTime": 1511,
+    "bundledSize": 1998
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-flip-move\\dist\\react-flip-move.es.js",
+    "buildTime": 3301,
+    "bundledSize": 15942
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\MovieResult.jsx",
+    "buildTime": 1929,
+    "bundledSize": 6636
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-rating\\lib\\react-rating.js",
+    "buildTime": 5766,
+    "bundledSize": 22199
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\node-libs-browser\\node_modules\\process\\browser.js",
+    "buildTime": 1159,
+    "bundledSize": 1726
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\actions\\actions.js",
+    "buildTime": 1851,
+    "bundledSize": 1799
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\index.js",
+    "buildTime": 6783,
+    "bundledSize": 108
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\axios.js",
+    "buildTime": 646,
+    "bundledSize": 769
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\utils.js",
+    "buildTime": 1053,
+    "bundledSize": 1905
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\bind.js",
+    "buildTime": 1377,
+    "bundledSize": 207
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\is-buffer\\index.js",
+    "buildTime": 975,
+    "bundledSize": 326
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\core\\Axios.js",
+    "buildTime": 1109,
+    "bundledSize": 1085
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\defaults.js",
+    "buildTime": 1155,
+    "bundledSize": 1392
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\normalizeHeaderName.js",
+    "buildTime": 1452,
+    "bundledSize": 227
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\adapters\\xhr.js",
+    "buildTime": 2035,
+    "bundledSize": 2459
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\core\\settle.js",
+    "buildTime": 1642,
+    "bundledSize": 285
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\core\\createError.js",
+    "buildTime": 1458,
+    "bundledSize": 193
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\core\\enhanceError.js",
+    "buildTime": 1818,
+    "bundledSize": 158
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\buildURL.js",
+    "buildTime": 1444,
+    "bundledSize": 667
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\parseHeaders.js",
+    "buildTime": 1607,
+    "bundledSize": 624
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\isURLSameOrigin.js",
+    "buildTime": 3132,
+    "bundledSize": 737
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\btoa.js",
+    "buildTime": 1569,
+    "bundledSize": 469
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\cookies.js",
+    "buildTime": 3355,
+    "bundledSize": 657
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\adapters\\http.js",
+    "buildTime": 1653,
+    "bundledSize": 3378
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\index.js",
+    "buildTime": 503,
+    "bundledSize": 1158
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\lib\\request.js",
+    "buildTime": 3853,
+    "bundledSize": 4800
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\lib\\capability.js",
+    "buildTime": 2261,
+    "bundledSize": 1014
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\inherits\\inherits_browser.js",
+    "buildTime": 414,
+    "bundledSize": 357
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\lib\\response.js",
+    "buildTime": 3555,
+    "bundledSize": 3270
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\readable-browser.js",
+    "buildTime": 458,
+    "bundledSize": 554
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_readable.js",
+    "buildTime": 1501,
+    "bundledSize": 11202
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\process-nextick-args\\index.js",
+    "buildTime": 1988,
+    "bundledSize": 729
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\isarray\\index.js",
+    "buildTime": 1381,
+    "bundledSize": 145
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\events\\events.js",
+    "buildTime": 1411,
+    "bundledSize": 3595
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\stream.js",
+    "buildTime": 1509,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\index.js",
+    "buildTime": 5490,
+    "bundledSize": 1417
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\readable-browser.js",
+    "buildTime": 1605,
+    "bundledSize": 554
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\lib\\_stream_readable.js",
+    "buildTime": 1752,
+    "bundledSize": 11202
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\isarray\\index.js",
+    "buildTime": 78,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\lib\\internal\\streams\\stream.js",
+    "buildTime": 466,
+    "bundledSize": 98
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\safe-buffer\\index.js",
+    "buildTime": 2580,
+    "bundledSize": 810
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\buffer\\index.js",
+    "buildTime": 3219,
+    "bundledSize": 20010
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\base64-js\\index.js",
+    "buildTime": 751,
+    "bundledSize": 1488
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\ieee754\\index.js",
+    "buildTime": 1353,
+    "bundledSize": 929
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\buffer\\node_modules\\isarray\\index.js",
+    "buildTime": 524,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\core-util-is\\lib\\util.js",
+    "buildTime": 2174,
+    "bundledSize": 1185
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\parcel-bundler\\src\\builtins\\_empty.js",
+    "buildTime": 2597,
+    "bundledSize": 50
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\lib\\internal\\streams\\BufferList.js",
+    "buildTime": 295,
+    "bundledSize": 1347
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js",
+    "buildTime": 173,
+    "bundledSize": 1030
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\lib\\_stream_duplex.js",
+    "buildTime": 1532,
+    "bundledSize": 1465
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\lib\\_stream_writable.js",
+    "buildTime": 1198,
+    "bundledSize": 7635
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\util-deprecate\\browser.js",
+    "buildTime": 1972,
+    "bundledSize": 467
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\string_decoder\\lib\\string_decoder.js",
+    "buildTime": 234,
+    "bundledSize": 3656
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\lib\\_stream_transform.js",
+    "buildTime": 1830,
+    "bundledSize": 2140
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\lib\\_stream_passthrough.js",
+    "buildTime": 1583,
+    "bundledSize": 377
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\writable-browser.js",
+    "buildTime": 1656,
+    "bundledSize": 136
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\duplex-browser.js",
+    "buildTime": 2393,
+    "bundledSize": 132
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\transform.js",
+    "buildTime": 1978,
+    "bundledSize": 116
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\passthrough.js",
+    "buildTime": 1999,
+    "bundledSize": 118
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\BufferList.js",
+    "buildTime": 2320,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js",
+    "buildTime": 1484,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_duplex.js",
+    "buildTime": 1968,
+    "bundledSize": 1465
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_writable.js",
+    "buildTime": 1786,
+    "bundledSize": 7635
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\string_decoder\\lib\\string_decoder.js",
+    "buildTime": 1891,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_transform.js",
+    "buildTime": 614,
+    "bundledSize": 2140
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_passthrough.js",
+    "buildTime": 490,
+    "bundledSize": 377
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\to-arraybuffer\\index.js",
+    "buildTime": 418,
+    "bundledSize": 471
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\xtend\\immutable.js",
+    "buildTime": 1762,
+    "bundledSize": 227
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\builtin-status-codes\\browser.js",
+    "buildTime": 1697,
+    "bundledSize": 1468
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\url\\url.js",
+    "buildTime": 1540,
+    "bundledSize": 7642
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\node-libs-browser\\node_modules\\punycode\\punycode.js",
+    "buildTime": 1682,
+    "bundledSize": 2791
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\url\\util.js",
+    "buildTime": 1321,
+    "bundledSize": 266
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\querystring-es3\\index.js",
+    "buildTime": 1287,
+    "bundledSize": 200
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\querystring-es3\\decode.js",
+    "buildTime": 904,
+    "bundledSize": 666
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\querystring-es3\\encode.js",
+    "buildTime": 820,
+    "bundledSize": 851
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\https-browserify\\index.js",
+    "buildTime": 986,
+    "bundledSize": 495
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\follow-redirects\\index.js",
+    "buildTime": 1266,
+    "bundledSize": 4200
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\assert\\assert.js",
+    "buildTime": 5847,
+    "bundledSize": 4448
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\assert\\node_modules\\util\\util.js",
+    "buildTime": 2124,
+    "bundledSize": 6397
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\assert\\node_modules\\util\\support\\isBuffer.js",
+    "buildTime": 791,
+    "bundledSize": 185
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\assert\\node_modules\\inherits\\inherits_browser.js",
+    "buildTime": 438,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\debug\\src\\browser.js",
+    "buildTime": 1342,
+    "bundledSize": 2686
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\debug\\src\\debug.js",
+    "buildTime": 1673,
+    "bundledSize": 1917
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\ms\\index.js",
+    "buildTime": 446,
+    "bundledSize": 1277
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\browserify-zlib\\lib\\index.js",
+    "buildTime": 1772,
+    "bundledSize": 8529
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\browserify-zlib\\lib\\binding.js",
+    "buildTime": 1533,
+    "bundledSize": 6695
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\zstream.js",
+    "buildTime": 797,
+    "bundledSize": 281
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\deflate.js",
+    "buildTime": 2800,
+    "bundledSize": 14602
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\utils\\common.js",
+    "buildTime": 1964,
+    "bundledSize": 1223
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\trees.js",
+    "buildTime": 3231,
+    "bundledSize": 6742
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\adler32.js",
+    "buildTime": 2980,
+    "bundledSize": 236
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\crc32.js",
+    "buildTime": 3254,
+    "bundledSize": 297
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\messages.js",
+    "buildTime": 2056,
+    "bundledSize": 251
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\inflate.js",
+    "buildTime": 4735,
+    "bundledSize": 12309
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\inffast.js",
+    "buildTime": 1005,
+    "bundledSize": 1850
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\inftrees.js",
+    "buildTime": 1792,
+    "bundledSize": 1694
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\constants.js",
+    "buildTime": 847,
+    "bundledSize": 462
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\util\\util.js",
+    "buildTime": 2053,
+    "bundledSize": 6397
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\util\\support\\isBuffer.js",
+    "buildTime": 3446,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\package.json",
+    "buildTime": 1269,
+    "bundledSize": 2497
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\core\\InterceptorManager.js",
+    "buildTime": 1642,
+    "bundledSize": 422
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\core\\dispatchRequest.js",
+    "buildTime": 1445,
+    "bundledSize": 1063
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\core\\transformData.js",
+    "buildTime": 1511,
+    "bundledSize": 186
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\cancel\\isCancel.js",
+    "buildTime": 1829,
+    "bundledSize": 118
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\isAbsoluteURL.js",
+    "buildTime": 1000,
+    "bundledSize": 137
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\combineURLs.js",
+    "buildTime": 1517,
+    "bundledSize": 150
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\cancel\\Cancel.js",
+    "buildTime": 1216,
+    "bundledSize": 219
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\cancel\\CancelToken.js",
+    "buildTime": 1760,
+    "bundledSize": 479
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\spread.js",
+    "buildTime": 1664,
+    "bundledSize": 134
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\FiltersContainer.jsx",
+    "buildTime": 1702,
+    "bundledSize": 1324
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\Header.jsx",
+    "buildTime": 2820,
+    "bundledSize": 2479
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\actions\\userActions.js",
+    "buildTime": 1881,
+    "bundledSize": 250
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\OtherPage.jsx",
+    "buildTime": 7914,
+    "bundledSize": 316
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\NotFoundPage.jsx",
+    "buildTime": 7891,
+    "bundledSize": 301
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\SearchMoviePage.jsx",
+    "buildTime": 7945,
+    "bundledSize": 490
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\MovieSearchBar.jsx",
+    "buildTime": 1714,
+    "bundledSize": 3256
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\urlencode\\lib\\urlencode.js",
+    "buildTime": 1926,
+    "bundledSize": 2209
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\lib\\index.js",
+    "buildTime": 2874,
+    "bundledSize": 2013
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\safer-buffer\\safer.js",
+    "buildTime": 518,
+    "bundledSize": 1315
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\lib\\bom-handling.js",
+    "buildTime": 600,
+    "bundledSize": 621
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\index.js",
+    "buildTime": 1024,
+    "bundledSize": 537
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\internal.js",
+    "buildTime": 1828,
+    "bundledSize": 2199
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\node-libs-browser\\node_modules\\string_decoder\\lib\\string_decoder.js",
+    "buildTime": 2000,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\utf16.js",
+    "buildTime": 2834,
+    "bundledSize": 2055
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\utf7.js",
+    "buildTime": 895,
+    "bundledSize": 3430
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\sbcs-codec.js",
+    "buildTime": 2637,
+    "bundledSize": 1119
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\sbcs-data.js",
+    "buildTime": 630,
+    "bundledSize": 3087
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\sbcs-data-generated.js",
+    "buildTime": 1399,
+    "bundledSize": 28652
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\dbcs-codec.js",
+    "buildTime": 4265,
+    "bundledSize": 6710
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\dbcs-data.js",
+    "buildTime": 1023,
+    "bundledSize": 2004
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\tables\\shiftjis.json",
+    "buildTime": 2230,
+    "bundledSize": 23719
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\tables\\eucjp.json",
+    "buildTime": 1588,
+    "bundledSize": 40944
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\tables\\cp936.json",
+    "buildTime": 2335,
+    "bundledSize": 47118
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\tables\\gbk-added.json",
+    "buildTime": 3765,
+    "bundledSize": 1238
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\tables\\gb18030-ranges.json",
+    "buildTime": 1432,
+    "bundledSize": 2277
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\tables\\cp949.json",
+    "buildTime": 3749,
+    "bundledSize": 37911
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\tables\\cp950.json",
+    "buildTime": 2122,
+    "bundledSize": 42241
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\tables\\big5-added.json",
+    "buildTime": 3844,
+    "bundledSize": 17661
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\lib\\streams.js",
+    "buildTime": 1034,
+    "bundledSize": 1648
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\lib\\extend-node.js",
+    "buildTime": 2473,
+    "bundledSize": 3345
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\LoginPage.jsx",
+    "buildTime": 7904,
+    "bundledSize": 948
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\actions\\historyActions.js",
+    "buildTime": 7925,
+    "bundledSize": 209
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\styles\\styles.scss",
+    "buildTime": 10357,
+    "bundledSize": 273
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\index.js",
+    "buildTime": 921,
+    "bundledSize": 709
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react\\index.js",
+    "buildTime": 509,
+    "bundledSize": 157
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react\\cjs\\react.production.min.js",
+    "buildTime": 4495,
+    "bundledSize": 5546
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\object-assign\\index.js",
+    "buildTime": 360,
+    "bundledSize": 1936
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\invariant.js",
+    "buildTime": 393,
+    "bundledSize": 440
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\emptyObject.js",
+    "buildTime": 436,
+    "bundledSize": 89
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\emptyFunction.js",
+    "buildTime": 401,
+    "bundledSize": 318
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-dom\\index.js",
+    "buildTime": 493,
+    "bundledSize": 374
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+    "buildTime": 7303,
+    "bundledSize": 93376
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\ExecutionEnvironment.js",
+    "buildTime": 476,
+    "bundledSize": 344
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\getActiveElement.js",
+    "buildTime": 391,
+    "bundledSize": 231
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\shallowEqual.js",
+    "buildTime": 2452,
+    "bundledSize": 442
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\containsNode.js",
+    "buildTime": 381,
+    "bundledSize": 299
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\isTextNode.js",
+    "buildTime": 478,
+    "bundledSize": 164
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\fbjs\\lib\\isNode.js",
+    "buildTime": 986,
+    "bundledSize": 291
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\index.js",
+    "buildTime": 1051,
+    "bundledSize": 611
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\components\\Provider.js",
+    "buildTime": 7603,
+    "bundledSize": 1915
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\prop-types\\index.js",
+    "buildTime": 1350,
+    "bundledSize": 150
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\prop-types\\factoryWithThrowingShims.js",
+    "buildTime": 966,
+    "bundledSize": 688
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\prop-types\\lib\\ReactPropTypesSecret.js",
+    "buildTime": 1689,
+    "bundledSize": 133
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\utils\\PropTypes.js",
+    "buildTime": 689,
+    "bundledSize": 634
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\utils\\warning.js",
+    "buildTime": 1557,
+    "bundledSize": 264
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\components\\connectAdvanced.js",
+    "buildTime": 7856,
+    "bundledSize": 5264
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js",
+    "buildTime": 1514,
+    "bundledSize": 700
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\invariant\\browser.js",
+    "buildTime": 1401,
+    "bundledSize": 420
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\utils\\Subscription.js",
+    "buildTime": 1293,
+    "bundledSize": 1267
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\connect\\connect.js",
+    "buildTime": 7670,
+    "bundledSize": 2243
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\utils\\shallowEqual.js",
+    "buildTime": 813,
+    "bundledSize": 498
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\connect\\mapDispatchToProps.js",
+    "buildTime": 1063,
+    "bundledSize": 679
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\redux\\es\\redux.js",
+    "buildTime": 7705,
+    "bundledSize": 7335
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\symbol-observable\\es\\index.js",
+    "buildTime": 1936,
+    "bundledSize": 444
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\symbol-observable\\es\\ponyfill.js",
+    "buildTime": 1643,
+    "bundledSize": 276
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\connect\\wrapMapToProps.js",
+    "buildTime": 1459,
+    "bundledSize": 899
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\utils\\verifyPlainObject.js",
+    "buildTime": 1550,
+    "bundledSize": 435
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\isPlainObject.js",
+    "buildTime": 1489,
+    "bundledSize": 709
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\_baseGetTag.js",
+    "buildTime": 1954,
+    "bundledSize": 559
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\_Symbol.js",
+    "buildTime": 728,
+    "bundledSize": 264
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\_root.js",
+    "buildTime": 3773,
+    "bundledSize": 357
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\_freeGlobal.js",
+    "buildTime": 1369,
+    "bundledSize": 219
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\_getRawTag.js",
+    "buildTime": 816,
+    "bundledSize": 466
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\_objectToString.js",
+    "buildTime": 1678,
+    "bundledSize": 203
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\_getPrototype.js",
+    "buildTime": 2059,
+    "bundledSize": 297
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\_overArg.js",
+    "buildTime": 811,
+    "bundledSize": 187
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\lodash-es\\isObjectLike.js",
+    "buildTime": 1477,
+    "bundledSize": 185
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\connect\\mapStateToProps.js",
+    "buildTime": 1134,
+    "bundledSize": 453
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\connect\\mergeProps.js",
+    "buildTime": 1205,
+    "bundledSize": 891
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\connect\\selectorFactory.js",
+    "buildTime": 1164,
+    "bundledSize": 1215
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-redux\\es\\connect\\verifySubselectors.js",
+    "buildTime": 1557,
+    "bundledSize": 610
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\store\\configure.js",
+    "buildTime": 1597,
+    "bundledSize": 870
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\redux-thunk\\es\\index.js",
+    "buildTime": 7714,
+    "bundledSize": 313
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\redux-devtools-extension\\index.js",
+    "buildTime": 6580,
+    "bundledSize": 538
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\reducers\\moviesReducer.js",
+    "buildTime": 8358,
+    "bundledSize": 773
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\reducers\\usersReducer.js",
+    "buildTime": 8385,
+    "bundledSize": 329
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\reducers\\filtersReducer.js",
+    "buildTime": 8297,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\reducers\\historyReducer.js",
+    "buildTime": 8276,
+    "bundledSize": 321
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\AppRouter.jsx",
+    "buildTime": 1750,
+    "bundledSize": 2595
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\index.js",
+    "buildTime": 7741,
+    "bundledSize": 1541
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\BrowserRouter.js",
+    "buildTime": 1426,
+    "bundledSize": 1743
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\node_modules\\warning\\warning.js",
+    "buildTime": 1625,
+    "bundledSize": 605
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\es\\index.js",
+    "buildTime": 1524,
+    "bundledSize": 1190
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\es\\createBrowserHistory.js",
+    "buildTime": 1924,
+    "bundledSize": 4293
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\warning\\browser.js",
+    "buildTime": 1157,
+    "bundledSize": 99
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\es\\LocationUtils.js",
+    "buildTime": 2119,
+    "bundledSize": 1405
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\resolve-pathname\\index.js",
+    "buildTime": 1378,
+    "bundledSize": 786
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\value-equal\\index.js",
+    "buildTime": 1651,
+    "bundledSize": 790
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\es\\PathUtils.js",
+    "buildTime": 1422,
+    "bundledSize": 933
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\es\\createTransitionManager.js",
+    "buildTime": 1800,
+    "bundledSize": 968
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\es\\DOMUtils.js",
+    "buildTime": 803,
+    "bundledSize": 1157
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\es\\createHashHistory.js",
+    "buildTime": 2082,
+    "bundledSize": 4035
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\es\\createMemoryHistory.js",
+    "buildTime": 2449,
+    "bundledSize": 2804
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\Router.js",
+    "buildTime": 1427,
+    "bundledSize": 273
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\Router.js",
+    "buildTime": 1464,
+    "bundledSize": 2413
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\node_modules\\warning\\warning.js",
+    "buildTime": 1498,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\HashRouter.js",
+    "buildTime": 1486,
+    "bundledSize": 1736
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\Link.js",
+    "buildTime": 1691,
+    "bundledSize": 2647
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\MemoryRouter.js",
+    "buildTime": 1297,
+    "bundledSize": 285
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\MemoryRouter.js",
+    "buildTime": 1443,
+    "bundledSize": 1747
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\NavLink.js",
+    "buildTime": 1127,
+    "bundledSize": 1942
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\Route.js",
+    "buildTime": 1128,
+    "bundledSize": 271
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\Route.js",
+    "buildTime": 1371,
+    "bundledSize": 3981
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\matchPath.js",
+    "buildTime": 1477,
+    "bundledSize": 915
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\node_modules\\path-to-regexp\\index.js",
+    "buildTime": 1117,
+    "bundledSize": 3272
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\isarray\\index.js",
+    "buildTime": 1676,
+    "bundledSize": 151
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\Prompt.js",
+    "buildTime": 898,
+    "bundledSize": 273
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\Prompt.js",
+    "buildTime": 1323,
+    "bundledSize": 1894
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\Redirect.js",
+    "buildTime": 1715,
+    "bundledSize": 277
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\Redirect.js",
+    "buildTime": 1396,
+    "bundledSize": 2654
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\generatePath.js",
+    "buildTime": 1271,
+    "bundledSize": 558
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\StaticRouter.js",
+    "buildTime": 955,
+    "bundledSize": 285
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\StaticRouter.js",
+    "buildTime": 1754,
+    "bundledSize": 3326
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\Switch.js",
+    "buildTime": 1273,
+    "bundledSize": 273
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\Switch.js",
+    "buildTime": 2235,
+    "bundledSize": 2332
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\generatePath.js",
+    "buildTime": 1142,
+    "bundledSize": 285
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\matchPath.js",
+    "buildTime": 979,
+    "bundledSize": 279
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router-dom\\es\\withRouter.js",
+    "buildTime": 1282,
+    "bundledSize": 281
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-router\\es\\withRouter.js",
+    "buildTime": 1403,
+    "bundledSize": 1060
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\createBrowserHistory.js",
+    "buildTime": 7250,
+    "bundledSize": 4260
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\LocationUtils.js",
+    "buildTime": 1070,
+    "bundledSize": 1372
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\PathUtils.js",
+    "buildTime": 655,
+    "bundledSize": 900
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\createTransitionManager.js",
+    "buildTime": 818,
+    "bundledSize": 935
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\history\\DOMUtils.js",
+    "buildTime": 1333,
+    "bundledSize": 1124
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\HomePage.jsx",
+    "buildTime": 7870,
+    "bundledSize": 1732
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\ContentContainer.jsx",
+    "buildTime": 1692,
+    "bundledSize": 512
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\MoviesContainer.jsx",
+    "buildTime": 1511,
+    "bundledSize": 1998
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-flip-move\\dist\\react-flip-move.es.js",
+    "buildTime": 3301,
+    "bundledSize": 15942
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\MovieResult.jsx",
+    "buildTime": 1929,
+    "bundledSize": 6636
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\react-rating\\lib\\react-rating.js",
+    "buildTime": 5766,
+    "bundledSize": 22199
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\node-libs-browser\\node_modules\\process\\browser.js",
+    "buildTime": 1159,
+    "bundledSize": 1726
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\actions\\actions.js",
+    "buildTime": 1851,
+    "bundledSize": 1799
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\index.js",
+    "buildTime": 6783,
+    "bundledSize": 108
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\axios.js",
+    "buildTime": 646,
+    "bundledSize": 769
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\utils.js",
+    "buildTime": 1053,
+    "bundledSize": 1905
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\bind.js",
+    "buildTime": 1377,
+    "bundledSize": 207
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\is-buffer\\index.js",
+    "buildTime": 975,
+    "bundledSize": 326
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\core\\Axios.js",
+    "buildTime": 1109,
+    "bundledSize": 1085
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\defaults.js",
+    "buildTime": 1155,
+    "bundledSize": 1392
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\normalizeHeaderName.js",
+    "buildTime": 1452,
+    "bundledSize": 227
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\adapters\\xhr.js",
+    "buildTime": 2035,
+    "bundledSize": 2459
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\core\\settle.js",
+    "buildTime": 1642,
+    "bundledSize": 285
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\core\\createError.js",
+    "buildTime": 1458,
+    "bundledSize": 193
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\core\\enhanceError.js",
+    "buildTime": 1818,
+    "bundledSize": 158
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\buildURL.js",
+    "buildTime": 1444,
+    "bundledSize": 667
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\parseHeaders.js",
+    "buildTime": 1607,
+    "bundledSize": 624
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\isURLSameOrigin.js",
+    "buildTime": 3132,
+    "bundledSize": 737
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\btoa.js",
+    "buildTime": 1569,
+    "bundledSize": 469
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\cookies.js",
+    "buildTime": 3355,
+    "bundledSize": 657
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\adapters\\http.js",
+    "buildTime": 1653,
+    "bundledSize": 3378
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\index.js",
+    "buildTime": 503,
+    "bundledSize": 1158
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\lib\\request.js",
+    "buildTime": 3853,
+    "bundledSize": 4800
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\lib\\capability.js",
+    "buildTime": 2261,
+    "bundledSize": 1014
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\inherits\\inherits_browser.js",
+    "buildTime": 414,
+    "bundledSize": 357
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\lib\\response.js",
+    "buildTime": 3555,
+    "bundledSize": 3270
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\readable-browser.js",
+    "buildTime": 458,
+    "bundledSize": 554
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_readable.js",
+    "buildTime": 1501,
+    "bundledSize": 11202
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\process-nextick-args\\index.js",
+    "buildTime": 1988,
+    "bundledSize": 729
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\isarray\\index.js",
+    "buildTime": 1381,
+    "bundledSize": 145
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\events\\events.js",
+    "buildTime": 1411,
+    "bundledSize": 3595
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\stream.js",
+    "buildTime": 1509,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\index.js",
+    "buildTime": 5490,
+    "bundledSize": 1417
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\readable-browser.js",
+    "buildTime": 1605,
+    "bundledSize": 554
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\lib\\_stream_readable.js",
+    "buildTime": 1752,
+    "bundledSize": 11202
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\isarray\\index.js",
+    "buildTime": 78,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\lib\\internal\\streams\\stream.js",
+    "buildTime": 466,
+    "bundledSize": 98
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\safe-buffer\\index.js",
+    "buildTime": 2580,
+    "bundledSize": 810
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\buffer\\index.js",
+    "buildTime": 3219,
+    "bundledSize": 20010
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\base64-js\\index.js",
+    "buildTime": 751,
+    "bundledSize": 1488
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\ieee754\\index.js",
+    "buildTime": 1353,
+    "bundledSize": 929
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\buffer\\node_modules\\isarray\\index.js",
+    "buildTime": 524,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\core-util-is\\lib\\util.js",
+    "buildTime": 2174,
+    "bundledSize": 1185
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\lib\\internal\\streams\\BufferList.js",
+    "buildTime": 295,
+    "bundledSize": 1347
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js",
+    "buildTime": 173,
+    "bundledSize": 1030
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\lib\\_stream_duplex.js",
+    "buildTime": 1532,
+    "bundledSize": 1465
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\lib\\_stream_writable.js",
+    "buildTime": 1198,
+    "bundledSize": 7635
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\util-deprecate\\browser.js",
+    "buildTime": 1972,
+    "bundledSize": 467
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\string_decoder\\lib\\string_decoder.js",
+    "buildTime": 234,
+    "bundledSize": 3656
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\lib\\_stream_transform.js",
+    "buildTime": 1830,
+    "bundledSize": 2140
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\lib\\_stream_passthrough.js",
+    "buildTime": 1583,
+    "bundledSize": 377
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\writable-browser.js",
+    "buildTime": 1656,
+    "bundledSize": 136
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\duplex-browser.js",
+    "buildTime": 2393,
+    "bundledSize": 132
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\transform.js",
+    "buildTime": 1978,
+    "bundledSize": 116
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-browserify\\node_modules\\readable-stream\\passthrough.js",
+    "buildTime": 1999,
+    "bundledSize": 118
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\BufferList.js",
+    "buildTime": 2320,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js",
+    "buildTime": 1484,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_duplex.js",
+    "buildTime": 1968,
+    "bundledSize": 1465
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_writable.js",
+    "buildTime": 1786,
+    "bundledSize": 7635
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\string_decoder\\lib\\string_decoder.js",
+    "buildTime": 1891,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_transform.js",
+    "buildTime": 614,
+    "bundledSize": 2140
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_passthrough.js",
+    "buildTime": 490,
+    "bundledSize": 377
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\to-arraybuffer\\index.js",
+    "buildTime": 418,
+    "bundledSize": 471
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\xtend\\immutable.js",
+    "buildTime": 1762,
+    "bundledSize": 227
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\builtin-status-codes\\browser.js",
+    "buildTime": 1697,
+    "bundledSize": 1468
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\url\\url.js",
+    "buildTime": 1540,
+    "bundledSize": 7642
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\node-libs-browser\\node_modules\\punycode\\punycode.js",
+    "buildTime": 1682,
+    "bundledSize": 2791
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\url\\util.js",
+    "buildTime": 1321,
+    "bundledSize": 266
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\querystring-es3\\index.js",
+    "buildTime": 1287,
+    "bundledSize": 200
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\querystring-es3\\decode.js",
+    "buildTime": 904,
+    "bundledSize": 666
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\querystring-es3\\encode.js",
+    "buildTime": 820,
+    "bundledSize": 851
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\https-browserify\\index.js",
+    "buildTime": 986,
+    "bundledSize": 495
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\follow-redirects\\index.js",
+    "buildTime": 1266,
+    "bundledSize": 4200
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\assert\\assert.js",
+    "buildTime": 5847,
+    "bundledSize": 4448
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\assert\\node_modules\\util\\util.js",
+    "buildTime": 2124,
+    "bundledSize": 6397
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\assert\\node_modules\\util\\support\\isBuffer.js",
+    "buildTime": 791,
+    "bundledSize": 185
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\assert\\node_modules\\inherits\\inherits_browser.js",
+    "buildTime": 438,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\debug\\src\\browser.js",
+    "buildTime": 1342,
+    "bundledSize": 2686
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\debug\\src\\debug.js",
+    "buildTime": 1673,
+    "bundledSize": 1917
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\ms\\index.js",
+    "buildTime": 446,
+    "bundledSize": 1277
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\browserify-zlib\\lib\\index.js",
+    "buildTime": 1772,
+    "bundledSize": 8529
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\browserify-zlib\\lib\\binding.js",
+    "buildTime": 1533,
+    "bundledSize": 6695
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\zstream.js",
+    "buildTime": 797,
+    "bundledSize": 281
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\deflate.js",
+    "buildTime": 2800,
+    "bundledSize": 14602
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\utils\\common.js",
+    "buildTime": 1964,
+    "bundledSize": 1223
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\trees.js",
+    "buildTime": 3231,
+    "bundledSize": 6742
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\adler32.js",
+    "buildTime": 2980,
+    "bundledSize": 236
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\crc32.js",
+    "buildTime": 3254,
+    "bundledSize": 297
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\messages.js",
+    "buildTime": 2056,
+    "bundledSize": 251
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\inflate.js",
+    "buildTime": 4735,
+    "bundledSize": 12309
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\inffast.js",
+    "buildTime": 1005,
+    "bundledSize": 1850
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\inftrees.js",
+    "buildTime": 1792,
+    "bundledSize": 1694
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\pako\\lib\\zlib\\constants.js",
+    "buildTime": 847,
+    "bundledSize": 462
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\util\\util.js",
+    "buildTime": 2053,
+    "bundledSize": 6397
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\util\\support\\isBuffer.js",
+    "buildTime": 3446,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\package.json",
+    "buildTime": 1269,
+    "bundledSize": 2497
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\core\\InterceptorManager.js",
+    "buildTime": 1642,
+    "bundledSize": 422
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\core\\dispatchRequest.js",
+    "buildTime": 1445,
+    "bundledSize": 1063
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\core\\transformData.js",
+    "buildTime": 1511,
+    "bundledSize": 186
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\cancel\\isCancel.js",
+    "buildTime": 1829,
+    "bundledSize": 118
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\isAbsoluteURL.js",
+    "buildTime": 1000,
+    "bundledSize": 137
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\combineURLs.js",
+    "buildTime": 1517,
+    "bundledSize": 150
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\cancel\\Cancel.js",
+    "buildTime": 1216,
+    "bundledSize": 219
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\cancel\\CancelToken.js",
+    "buildTime": 1760,
+    "bundledSize": 479
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\axios\\lib\\helpers\\spread.js",
+    "buildTime": 1664,
+    "bundledSize": 134
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\FiltersContainer.jsx",
+    "buildTime": 1702,
+    "bundledSize": 1324
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\Header.jsx",
+    "buildTime": 2820,
+    "bundledSize": 2479
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\actions\\userActions.js",
+    "buildTime": 1881,
+    "bundledSize": 250
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\OtherPage.jsx",
+    "buildTime": 7914,
+    "bundledSize": 316
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\NotFoundPage.jsx",
+    "buildTime": 7891,
+    "bundledSize": 301
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\SearchMoviePage.jsx",
+    "buildTime": 7945,
+    "bundledSize": 490
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\MovieSearchBar.jsx",
+    "buildTime": 1714,
+    "bundledSize": 3256
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\urlencode\\lib\\urlencode.js",
+    "buildTime": 1926,
+    "bundledSize": 2209
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\lib\\index.js",
+    "buildTime": 2874,
+    "bundledSize": 2013
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\safer-buffer\\safer.js",
+    "buildTime": 518,
+    "bundledSize": 1315
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\lib\\bom-handling.js",
+    "buildTime": 600,
+    "bundledSize": 621
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\index.js",
+    "buildTime": 1024,
+    "bundledSize": 537
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\internal.js",
+    "buildTime": 1828,
+    "bundledSize": 2199
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\node-libs-browser\\node_modules\\string_decoder\\lib\\string_decoder.js",
+    "buildTime": 2000,
+    "bundledSize": 0
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\utf16.js",
+    "buildTime": 2834,
+    "bundledSize": 2055
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\utf7.js",
+    "buildTime": 895,
+    "bundledSize": 3430
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\sbcs-codec.js",
+    "buildTime": 2637,
+    "bundledSize": 1119
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\sbcs-data.js",
+    "buildTime": 630,
+    "bundledSize": 3087
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\sbcs-data-generated.js",
+    "buildTime": 1399,
+    "bundledSize": 28652
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\dbcs-codec.js",
+    "buildTime": 4265,
+    "bundledSize": 6710
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\dbcs-data.js",
+    "buildTime": 1023,
+    "bundledSize": 2004
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\tables\\shiftjis.json",
+    "buildTime": 2230,
+    "bundledSize": 23719
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\tables\\eucjp.json",
+    "buildTime": 1588,
+    "bundledSize": 40944
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\tables\\cp936.json",
+    "buildTime": 2335,
+    "bundledSize": 47118
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\tables\\gbk-added.json",
+    "buildTime": 3765,
+    "bundledSize": 1238
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\tables\\gb18030-ranges.json",
+    "buildTime": 1432,
+    "bundledSize": 2277
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\tables\\cp949.json",
+    "buildTime": 3749,
+    "bundledSize": 37911
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\tables\\cp950.json",
+    "buildTime": 2122,
+    "bundledSize": 42241
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\encodings\\tables\\big5-added.json",
+    "buildTime": 3844,
+    "bundledSize": 17661
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\lib\\streams.js",
+    "buildTime": 1034,
+    "bundledSize": 1648
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\node_modules\\iconv-lite\\lib\\extend-node.js",
+    "buildTime": 2473,
+    "bundledSize": 3345
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\components\\LoginPage.jsx",
+    "buildTime": 7904,
+    "bundledSize": 948
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\actions\\historyActions.js",
+    "buildTime": 7925,
+    "bundledSize": 209
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\styles\\styles.scss",
+    "buildTime": 10357,
+    "bundledSize": 273
+  },
+  {
+    "name": "C:\\Users\\sgoldber\\Documents\\Codesmith\\mockbuster\\mockbuster\\src\\styles\\styles.scss",
+    "buildTime": 10357,
+    "bundledSize": 273
+  }
+]

@@ -24,7 +24,6 @@ class Header extends Component {
           <div className="header__content">
             <NavLink className="header__title " to="/authenticated/" exact={true}>
               <div className="mockbuster-div">
-                <img src="../../public/img/mocker-outline.png" />
               </div>
             </NavLink>
             <div className="header_logout-justify">
