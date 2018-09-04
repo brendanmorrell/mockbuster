@@ -35,8 +35,6 @@ class Movie extends Component {
     this.props.dispatch(startUpdateMovie(movie));
   }
   handleDelete() {
-    console.log('clicked delete');
-
     this.props.dispatch(startDeleteMovie(this.props.title));
   }
   render() {
@@ -66,14 +64,22 @@ class Movie extends Component {
 
         <h1>{this.props.title}</h1>
         <h3>{this.props.genre}</h3>
-        <button onClick={this.handleAddToList}>
+        <button className="button" onClick={this.handleAddToList}>
           {this.props.onWatchList ? (
-            <span>remove from {this.props.watched && <span>re</span>}watch list</span>
+            <span>
+              remove from {this.props.watched && <span>re</span>}
+              watch list
+            </span>
           ) : (
-            <span>add to {this.props.watched && <span>re</span>}watch list</span>
+            <span>
+              add to {this.props.watched && <span>re</span>}
+              watch list
+            </span>
           )}
         </button>
-        <button onClick={this.handleDelete}>Delete me from movies</button>
+        <button className="button--secondary" onClick={this.handleDelete}>
+          Delete me from movies
+        </button>
       </div>
     );
   }

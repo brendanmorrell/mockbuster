@@ -34,7 +34,7 @@
 
 .filters-normal {
   background-color: white;
-  background: url('/images/arrow-down.png');
+  background: url(/images/arrow-down.png);
   border:1px solid #cacccd;
   border-radius: 0;
   border-left: none;
@@ -43,7 +43,7 @@
   width: 40px;
   height: 50px;
   &:hover {
-    background: linear-gradient( rgba(200, 200, 200, 0.1), rgba(200, 200, 200, 0.1) ), url('/images/arrow-down.png');
+    background: linear-gradient( rgba(200, 200, 200, 0.1), rgba(200, 200, 200, 0.1) ), url(/images/arrow-down.png);
     border:1px solid #cacccd;
     border-radius: 0;
     border-left: none;
@@ -55,7 +55,7 @@
 }
 .filters-reversed {
   background-color: white;
-  background: url('/images/arrow-up.png');
+  background: url(/images/arrow-up.png);
   border:1px solid #cacccd;
   border-radius: 0;
   border-left: none;
@@ -64,7 +64,7 @@
   width: 40px;
   height: 50px;
   &:hover {
-    background: linear-gradient( rgba(200, 200, 200, 0.1), rgba(200, 200, 200, 0.1) ), url('/images/arrow-up.png');
+    background: linear-gradient( rgba(200, 200, 200, 0.1), rgba(200, 200, 200, 0.1) ), url(/images/arrow-up.png);
     border:1px solid #cacccd;
     border-radius: 0;
     border-left: none;

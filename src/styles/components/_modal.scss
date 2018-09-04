@@ -1,5 +1,5 @@
-.ReactModalPortal > div {
-  opacity:0;
+.ReactModalPortal>div {
+  opacity: 0;
 }
 
 .ReactModalPortal .ReactModal__Overlay {
@@ -30,7 +30,7 @@
 }
 
 .ReactModal__Content {
-  top:auto !important;
+  top: auto !important;
   bottom: auto !important;
   left: auto !important;
   right: auto !important;
@@ -49,7 +49,7 @@
 
 .box-layout {
   align-items: center;
-  background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("/images/bg.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/images/bg.png);
   background-size: 5px;
   display: flex;
   height: 100vh;
@@ -57,19 +57,16 @@
   width: 100vw;
 }
 
-
 .button-group-modal {
   margin-top: $l-size;
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: space-around;
-
   @media(max-width: $desktop-breakpoint) {
     margin-bottom: $s-size;
   }
 }
-
 
 .center {
   text-align: center;
