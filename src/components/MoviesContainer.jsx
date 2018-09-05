@@ -24,14 +24,25 @@ class MoviesContainer extends Component {
           favorites={this.props.movies}
           movie={{ title: x.title }}
           style={{
-            background: `url(hjdsahjadsjhk)`,
+            background: `url()`,
           }}
         />
       );
     });
     return (
       <FlipMove duration={350} easing="ease-in-out">
-        <h3>Movie Collection</h3>
+        <div style={{ display: 'flex', justifyContent: 'spaceBetween' }}>
+          <h3>Movie Collection</h3>
+          <button
+            className="button right-border left-border search-button"
+            onClick={() => {
+              this.props.history.push('/authenticated/search');
+            }}
+          >
+            Find more movies
+          </button>
+        </div>
+
         <div className="movies-container">{movieComponents}</div>
       </FlipMove>
     );

@@ -13,14 +13,14 @@ class HomePage extends Component {
     return (
       <div>
         <Header />
-        <button
-          className="button"
+        {/* <button
+          className="button right-border left-border"
           onClick={() => {
             this.props.history.push('/authenticated/search');
           }}
         >
           Find more movies
-        </button>
+        </button> */}
         <ContentContainer />
       </div>
     );

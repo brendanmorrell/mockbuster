@@ -110,23 +110,23 @@ class MovieResult extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="movie-result-container">
         <div className="button-container">
-          <button className="button" onClick={this.handleAddToList}>
-            {this.props.onWatchList ? (
+          <button className="button left-border" onClick={this.handleAddToList}>
+            {/*   {this.props.onWatchList ? (
               <span>
                 Remove from {this.props.watched && <span>re</span>}
                 watch list
               </span>
-            ) : (
-              <span>
-                Add to {this.props.watched && <span>re</span>}
-                watch list
-              </span>
-            )}
+            ) : ( */}
+            <span>
+              Add {/* to {this.props.watched && <span>re</span>}
+              watch list */}
+            </span>
+            {/* )} */}
           </button>
-          <button className="button--secondary" onClick={this.handleDelete}>
-            Delete from movies
+          <button className="button--secondary right-border" onClick={this.handleDelete}>
+            Remove
           </button>
         </div>
         <div className="button-container">
@@ -141,9 +141,6 @@ class MovieResult extends Component {
             fullSymbol={<img src="../../public/img/star-full-yellow.png" />}
             placeholderSymbol={<img src="../../public/img/star-red.png" />}
           />
-          <button className="button" onClick={this.handleAddMovie}>
-            + Favorites
-          </button>
         </div>
         {this.props.movie ? (
           <div
@@ -171,7 +168,7 @@ class MovieResult extends Component {
                   background:
                     `linear-gradient(rgba(0, 130, 170, 0.5), rgba(0, 130, 170, 0.5)), url(${
                       this.props.url ? this.props.url : this.props.movie.poster_path
-                    })` + '0% 0% / 20rem',
+                    })` + '0% 0% / 23rem',
                 }}
               />
             ) : (
@@ -180,7 +177,7 @@ class MovieResult extends Component {
                 style={{
                   background:
                     `url(${this.props.url ? this.props.url : this.props.movie.poster_path})` +
-                    '0% 0% / 20rem',
+                    '0% 0% / 23rem',
                 }}
               />
             )}
@@ -206,3 +203,7 @@ const mapDispatchToProps = dispatch => {
 };
 
 export default connect(mapDispatchToProps)(MovieResult);
+
+// <button className="button" onClick={this.handleAddMovie}>
+//   + Favorites
+// </button>
