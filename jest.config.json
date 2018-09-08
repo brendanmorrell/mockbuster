@@ -1,0 +1,12 @@
+{
+  "snapshotSerializers": [
+    "enzyme-to-json/serializer"
+  ],
+  "moduleNameMapper": {
+    "^.+\\.css$":"css-loader"
+  },
+  "setupFiles": [
+    "raf/polyfill",
+    "<rootDir>/src/tests/setupTests.js"
+  ]
+}
