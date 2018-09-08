@@ -14,6 +14,7 @@ class HomePage extends Component {
       <div>
         <Header />
         <button
+          className="button"
           onClick={() => {
             this.props.history.push('/authenticated/search');
           }}

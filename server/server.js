@@ -19,7 +19,7 @@ const github = {
   clientSecret: '719422b56f245e7c13f60da7223113f3c618e884',
   redirectURI: process.env.PORT
     ? 'https://mockbuster.herokuapp.com/home'
-    : 'http://localhost:8080/home',
+    : 'http://localhost:8081/home',
   corsAnywhere: 'https://cors-anywhere.herokuapp.com/',
   signInURL() {
     return `${this.corsAnywhere}https://github.com/login/oauth/authorize?client_id=${
@@ -39,7 +39,7 @@ let isAuthenticated = false;
 let secondLogin = false;
 console.log('​isAuthenticated', isAuthenticated);
 
-const publicPath = path.join(__dirname, './../public/');
+const publicPath = path.join(__dirname, '..', 'public');
 app.use(bodyParser.json());
 
 app.post('/updatedata', (req, res) => {
@@ -53,7 +53,7 @@ app.post('/updatedata', (req, res) => {
   );
 });
 app.get('/getdata', (req, res) => {
-  User.find({ githubID: currentUser.githubID }, (err, userData) => {
+  User.find({ githubID: currentUser.githubID || 14864397 }, (err, userData) => {
     currentUser;
     res.json(userData[0]);
   });
@@ -72,45 +72,45 @@ app.get('/authenticated/bundle.js', (req, res) => {
 
 app.post('/logout', (req, res) => {
   isAuthenticated = false;
-  res.sendFile(path.join(__dirname, '../unathenticated/login.html'));
+  res.sendFile(path.join(__dirname, '../unauthenticated/login.html'));
 });
 
 app.get('/home', (req, res) => {
-  const url = github.postCodeURL() + req.query.code;
-  request.post(url, (err, gitRes, accessToken) => {
-    const url = github.authGetUrl() + accessToken;
-    const options = {
-      url,
-      headers: {
-        'User-Agent': 'request',
-      },
-    };
-    request.get(options, (err, gitRes, body) => {
-      const userData = JSON.parse(body);
-      const user = {
-        githubID: userData.id,
-        githubInfo: userData,
-        movies: {
-          wantToWatch: {},
-          wantToRewatch: {},
-          favorites: {},
-        },
-      };
-      User.find({ githubID: user.githubID }, (err, findRes) => {
-        if (!findRes.length) {
-          User.create(user, (err, res) => {
-            User.find({}, (err, newUser) => {
-              currentUser.githubID = newUser[0].githubID;
-            });
-          });
-        } else {
-          currentUser.githubID = findRes[0].githubID;
-        }
-      });
-      isAuthenticated = true;
-      res.redirect('/authenticated/');
-    });
-  });
+  // const url = github.postCodeURL() + req.query.code;
+  // request.post(url, (err, gitRes, accessToken) => {
+  //   const url = github.authGetUrl() + accessToken;
+  //   const options = {
+  //     url,
+  //     headers: {
+  //       'User-Agent': 'request',
+  //     },
+  //   };
+  //   request.get(options, (err, gitRes, body) => {
+  //     const userData = JSON.parse(body);
+  //     const user = {
+  //       githubID: userData.id,
+  //       githubInfo: userData,
+  //       movies: {
+  //         wantToWatch: {},
+  //         wantToRewatch: {},
+  //         favorites: {},
+  //       },
+  //     };
+  //     User.find({ githubID: user.githubID }, (err, findRes) => {
+  //       if (!findRes.length) {
+  //         User.create(user, (err, res) => {
+  //           User.find({}, (err, newUser) => {
+  //             currentUser.githubID = newUser[0].githubID;
+  //           });
+  //         });
+  //       } else {
+  //         currentUser.githubID = findRes[0].githubID;
+  //       }
+  //     });
+  isAuthenticated = true;
+  res.redirect('/authenticated/');
+  //   });
+  // });
 });
 
 app.get('*', (req, res) => {
@@ -122,8 +122,6 @@ app.get('*', (req, res) => {
     if (startOfPath === '/authenticated/') {
       res.sendFile(path.join(publicPath, 'dist', 'index.html'));
     } else {
-      console.log('path: ', req.path);
-      console.log('​startOfPath', startOfPath);
       fs.exists(path.join(publicPath, '..', req.path), exists => {
         if (exists) {
           if (req.path === '/') res.redirect('/authenticated/');
@@ -134,9 +132,7 @@ app.get('*', (req, res) => {
       });
     }
   } else {
-    console.log('here');
-
-    res.sendFile(path.join(__dirname, '../unathenticated/login.html'));
+    res.sendFile(path.join(__dirname, '../unauthenticated/login.html'));
   }
 });
 

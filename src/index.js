@@ -9,7 +9,6 @@ import './styles/styles.scss';
 
 const store = configureStore();
 
-
 render(
   <Provider store={store}>
     <AppRouter />

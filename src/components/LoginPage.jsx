@@ -1,8 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import axios from 'axios';
-
-// import { startLogin } from '../actions/auth';
 
 const LoginPage = props => (
   <div className="box-layout">
@@ -11,14 +8,7 @@ const LoginPage = props => (
       <h5>Can you smell the stale popcorn and old candy?</h5>
       <h5>Be magically whisked away to the 90s</h5>
       <a href="https://github.com/login/oauth/authorize?client_id=1393fe5adf5f5882f79c&redirect_uri=&https://mockbuster.herokuapp.com/home">
-        <button
-          className="button"
-          // onClick={() => {
-          //   axios.get('/login').then(res => console.log(res));
-          // }}
-        >
-          Login with GitHUb
-        </button>
+        <button className="button">Login with GitHUb</button>
       </a>
     </div>
   </div>

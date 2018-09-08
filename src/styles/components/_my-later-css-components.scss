@@ -140,7 +140,7 @@ li {
   border: 1px solid darken($very-light-grey, 7%);
 }
 .error-pointer {
-  background: url('/images/pointer.png') no-repeat;
+  background: url(/images/pointer.png) no-repeat;
   background-size: 100%;
   min-width: 50px;
   min-height: 36px;

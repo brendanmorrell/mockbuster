@@ -1,6 +1,6 @@
 .button {
   box-shadow: rgba(0, 0, 0, 0.12) -1px 3px 6px, rgba(0, 0, 0, 0.12) -1px 3px 4px;
-  border-radius: 4px;
+  border-radius: 6px;
   border: none;
   color: white;
   display: inline-block;
@@ -51,7 +51,7 @@
     background-color: $medium-grey;
   }
   &:focus {
-    outline:0;
+    outline: 0;
   }
   &:active {
     background-color: darken($medium-grey, 7%);
@@ -63,33 +63,33 @@
   flex-direction: row;
   align-items: stretch;
   margin-top: 3px;
-  > div {
+  >div {
     border-top-left-radius: 2px !important;
     border-bottom-left-radius: 2px !important;
     border-top-right-radius: 0px !important;
     border-bottom-right-radius: 0px !important;
-    > button {
+    >button {
       border-top-left-radius: 2px !important;
       border-bottom-left-radius: 2px !important;
       border-top-right-radius: 0px !important;
       border-bottom-right-radius: 0px !important;
-      > div {
+      >div {
         border-top-left-radius: 2px !important;
         border-bottom-left-radius: 2px !important;
         border-top-right-radius: 0px !important;
         border-bottom-right-radius: 0px !important;
-        > span {
+        >span {
           border-top-left-radius: 2px !important;
           border-bottom-left-radius: 2px !important;
           border-top-right-radius: 0px !important;
           border-bottom-right-radius: 0px !important;
         }
-        > div {
+        >div {
           border-top-left-radius: 2px !important;
           border-bottom-left-radius: 2px !important;
           border-top-right-radius: 0px !important;
           border-bottom-right-radius: 0px !important;
-          > span {
+          >span {
             border-top-left-radius: 2px !important;
             border-bottom-left-radius: 2px !important;
             border-top-right-radius: 0px !important;
@@ -101,7 +101,11 @@
   }
 }
 
-
 .flat {
   box-shadow: 0px 0px 0px;
+}
+
+.button-container {
+  display: flex;
+  width: 100%;
 }
